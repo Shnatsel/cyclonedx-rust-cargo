@@ -617,6 +617,11 @@ fn index_dep_kinds(root: &PackageId, resolve: &ResolveMap) -> DependencyKindMap 
 
             let dep_kind_on_previous_visit = id_to_dep_kind.get(&child_node.id);
             // insert/update a nodes dependency kind, when its new or stronger than the previous value
+            //
+            // We would need to traverse build-dependencies and runtime dependencies separately
+            // to correctly handle Cargo resolver v2, but right now `cargo metadata` does not support it either.
+            // So we will erroneously report some build dependencies as runtime ones, and there is nothing we can do about that.
+            // More info: https://github.com/rust-secure-code/cargo-auditable/issues/38
             if dep_kind_on_previous_visit.is_none()
                 || child_node_kind > *dep_kind_on_previous_visit.unwrap()
             {
