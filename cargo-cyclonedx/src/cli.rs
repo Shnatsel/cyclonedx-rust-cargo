@@ -60,6 +60,10 @@ pub struct Args {
     #[clap(long = "features", short = 'F')]
     pub features: Vec<String>,
 
+    /// Do not include build dependencies in the SBOM
+    #[clap(name = "no-build-deps")]
+    pub no_build_deps: bool,
+
     /// The target platform to generate the SBOM for, or 'all' for all targets.
     #[clap(
         long = "target",
@@ -100,10 +104,6 @@ Defaults to the host target, as printed by 'rustc -vV'"
     /// The CycloneDX specification version to output: `1.3`, `1.4` or `1.5`. Defaults to 1.3
     #[clap(long = "spec-version")]
     pub spec_version: Option<SpecVersion>,
-
-    /// List only dependencies of kind normal (no build deps, no dev deps)
-    #[clap(name = "no-build-deps", long = "no-build-deps")]
-    pub no_build_deps: bool,
 }
 
 impl Args {
@@ -174,7 +174,7 @@ impl Args {
 
         let describe = self.describe;
         let spec_version = self.spec_version;
-        let only_normal_deps = Some(self.no_build_deps);
+        let omit_build_deps = Some(self.no_build_deps);
 
         Ok(SbomConfig {
             format: self.format,
@@ -185,7 +185,7 @@ impl Args {
             license_parser,
             describe,
             spec_version,
-            only_normal_deps,
+            omit_build_deps,
         })
     }
 }
