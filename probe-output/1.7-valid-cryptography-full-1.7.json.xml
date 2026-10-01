@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <components>
+    <component type="cryptographic-asset" bom-ref="asset-1">
+      <name>Name here</name>
+      <cryptoProperties>
+        <algorithmProperties>
+          <algorithmFamily>ECDH</algorithmFamily>
+          <certificationLevel>fips140-3-l4</certificationLevel>
+          <classicalSecurityLevel>96</classicalSecurityLevel>
+          <cryptoFunctions>keygen</cryptoFunctions>
+          <cryptoFunctions>keyderive</cryptoFunctions>
+          <ellipticCurve>brainpool/brainpoolP160r1</ellipticCurve>
+          <executionEnvironment>software-plain-ram</executionEnvironment>
+          <implementationPlatform>x86_64</implementationPlatform>
+          <mode>gcm</mode>
+          <nistQuantumSecurityLevel>0</nistQuantumSecurityLevel>
+          <padding>pkcs5</padding>
+          <parameterSetIdentifier>128</parameterSetIdentifier>
+          <primitive>key-agree</primitive>
+        </algorithmProperties>
+        <assetType>algorithm</assetType>
+        <oid>oid:1.2.3.4.5.6.7.8.9</oid>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-2">
+      <name>Example Certificate with All Properties</name>
+      <cryptoProperties>
+        <assetType>certificate</assetType>
+        <certificateProperties>
+          <activationDate>2022-01-02T00:00:00.000Z</activationDate>
+          <certificateExtension>crt</certificateExtension>
+          <certificateExtensions>
+            <commonExtensionName>basicConstraints</commonExtensionName>
+            <commonExtensionValue>CA:FALSE, pathlen:0</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>keyUsage</commonExtensionName>
+            <commonExtensionValue>digitalSignature, keyEncipherment</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>extendedKeyUsage</commonExtensionName>
+            <commonExtensionValue>serverAuth, clientAuth</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>subjectAlternativeName</commonExtensionName>
+            <commonExtensionValue>DNS:example.com, DNS:www.example.com</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>authorityKeyIdentifier</commonExtensionName>
+            <commonExtensionValue>keyid:12:34:56:78:90:AB:CD:EF</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>subjectKeyIdentifier</commonExtensionName>
+            <commonExtensionValue>AA:BB:CC:DD:EE:FF:00:11</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>authorityInformationAccess</commonExtensionName>
+            <commonExtensionValue>OCSP - URI:http://ocsp.example.com</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>certificatePolicies</commonExtensionName>
+            <commonExtensionValue>Policy: 2.23.140.1.2.1</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>crlDistributionPoints</commonExtensionName>
+            <commonExtensionValue>URI:http://crl.example.com/root.crl</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <commonExtensionName>signedCertificateTimestamp</commonExtensionName>
+            <commonExtensionValue>Signed by Example CT log at 2022-01-01T00:00:00Z</commonExtensionValue>
+          </certificateExtensions>
+          <certificateExtensions>
+            <customExtensionName>someCustomExtension</customExtensionName>
+            <customExtensionValue>Custom value for this extension</customExtensionValue>
+          </certificateExtensions>
+          <certificateFileExtension>crt</certificateFileExtension>
+          <certificateFormat>X.509</certificateFormat>
+          <certificateState>
+            <reason>Certificate created but not yet active</reason>
+            <state>pre-activation</state>
+          </certificateState>
+          <certificateState>
+            <reason>Certificate in active use for TLS connections</reason>
+            <state>active</state>
+          </certificateState>
+          <certificateState>
+            <reason>Temporary suspension due to security audit</reason>
+            <state>suspended</state>
+          </certificateState>
+          <certificateState>
+            <reason>Replaced by new certificate</reason>
+            <state>deactivated</state>
+          </certificateState>
+          <certificateState>
+            <reason>Private key compromise suspected</reason>
+            <state>revoked</state>
+          </certificateState>
+          <certificateState>
+            <reason>Certificate and associated keys securely destroyed</reason>
+            <state>destroyed</state>
+          </certificateState>
+          <creationDate>2022-01-01T00:00:00.000Z</creationDate>
+          <deactivationDate>2023-12-31T23:59:59.000Z</deactivationDate>
+          <destructionDate>2024-01-02T00:00:00.000Z</destructionDate>
+          <fingerprint>
+            <alg>SHA-256</alg>
+            <content>3942447fac867ae5cdb3229b658f4d48</content>
+          </fingerprint>
+          <issuerName>CN=Example CA, O=Example Trust Services, C=US</issuerName>
+          <notValidAfter>2024-01-01T00:00:00.000Z</notValidAfter>
+          <notValidBefore>2022-01-01T00:00:00.000Z</notValidBefore>
+          <relatedCryptographicAssets>
+            <ref>public-key-ref</ref>
+            <type>publicKey</type>
+          </relatedCryptographicAssets>
+          <relatedCryptographicAssets>
+            <ref>private-key-ref</ref>
+            <type>privateKey</type>
+          </relatedCryptographicAssets>
+          <relatedCryptographicAssets>
+            <ref>signing-algorithm-ref</ref>
+            <type>algorithm</type>
+          </relatedCryptographicAssets>
+          <revocationDate>2024-01-01T00:00:00.000Z</revocationDate>
+          <serialNumber>0B:35:82:6D:F5:7A:02:0A:0A:21:8F:BD:F3:91:43:C3</serialNumber>
+          <signatureAlgorithmRef>bom-ref-to-algorithm</signatureAlgorithmRef>
+          <subjectName>CN=example.com, O=Example Corp, C=US</subjectName>
+          <subjectPublicKeyRef>bom-ref-to-public-key</subjectPublicKeyRef>
+        </certificateProperties>
+        <oid>oid:2.5.4.3</oid>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-3">
+      <name>Example Protocol with All Properties</name>
+      <cryptoProperties>
+        <assetType>protocol</assetType>
+        <oid>oid:1.3.6.1.5.5.7.3.1</oid>
+        <protocolProperties>
+          <cipherSuites>
+            <algorithms>aes-128-gcm-ref</algorithms>
+            <algorithms>sha256-ref</algorithms>
+            <identifiers>0x1301</identifiers>
+            <name>TLS_AES_128_GCM_SHA256</name>
+            <tlsGroups>x25519</tlsGroups>
+            <tlsGroups>secp256r1</tlsGroups>
+            <tlsGroups>secp384r1</tlsGroups>
+            <tlsGroups>secp521r1</tlsGroups>
+            <tlsGroups>ffdhe2048</tlsGroups>
+            <tlsGroups>ffdhe3072</tlsGroups>
+            <tlsSignatureSchemes>ecdsa_secp256r1_sha256</tlsSignatureSchemes>
+            <tlsSignatureSchemes>ecdsa_secp384r1_sha384</tlsSignatureSchemes>
+            <tlsSignatureSchemes>ecdsa_secp521r1_sha512</tlsSignatureSchemes>
+            <tlsSignatureSchemes>rsa_pss_rsae_sha256</tlsSignatureSchemes>
+            <tlsSignatureSchemes>rsa_pss_rsae_sha384</tlsSignatureSchemes>
+            <tlsSignatureSchemes>rsa_pss_rsae_sha512</tlsSignatureSchemes>
+            <tlsSignatureSchemes>ed25519</tlsSignatureSchemes>
+            <tlsSignatureSchemes>ed448</tlsSignatureSchemes>
+          </cipherSuites>
+          <cipherSuites>
+            <algorithms>aes-256-gcm-ref</algorithms>
+            <algorithms>sha384-ref</algorithms>
+            <identifiers>0x1302</identifiers>
+            <name>TLS_AES_256_GCM_SHA384</name>
+          </cipherSuites>
+          <cipherSuites>
+            <algorithms>chacha20-poly1305-ref</algorithms>
+            <algorithms>sha256-ref</algorithms>
+            <identifiers>0x1303</identifiers>
+            <name>TLS_CHACHA20_POLY1305_SHA256</name>
+          </cipherSuites>
+          <ikev2TransformTypes>
+            <auth>
+              <algorithm>ecdsa_secp256r1_sha256</algorithm>
+              <name>ECDSA</name>
+            </auth>
+            <encr>
+              <algorithm>aes-128-gcm-ref</algorithm>
+              <keyLength>128</keyLength>
+              <name>AES-128-GCM</name>
+            </encr>
+            <esn>true</esn>
+            <integ>
+              <algorithm>sha256-ref</algorithm>
+              <name>SHA-256</name>
+            </integ>
+            <ke>
+              <algorithm>diffie-hellman-group14-sha256-ref</algorithm>
+              <group>14</group>
+            </ke>
+            <prf>
+              <algorithm>sha256-ref</algorithm>
+              <name>SHA-256</name>
+            </prf>
+          </ikev2TransformTypes>
+          <relatedCryptographicAssets>
+            <ref>asset-4</ref>
+            <type>publicKey</type>
+          </relatedCryptographicAssets>
+          <type>tls</type>
+          <version>1.3</version>
+        </protocolProperties>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-4">
+      <name>Example Related Crypto Material with All Properties</name>
+      <cryptoProperties>
+        <assetType>related-crypto-material</assetType>
+        <oid>oid:1.2.840.113549.1.1.1</oid>
+        <relatedCryptoMaterialProperties>
+          <activationDate>2024-01-02T00:00:00.000Z</activationDate>
+          <algorithmRef>rsa-4096-ref</algorithmRef>
+          <creationDate>2024-01-01T00:00:00.000Z</creationDate>
+          <expirationDate>2026-01-01T00:00:00.000Z</expirationDate>
+          <fingerprint>
+            <alg>SHA-256</alg>
+            <content>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</content>
+          </fingerprint>
+          <format>PKCS#8</format>
+          <id>key-12345-67890</id>
+          <relatedCryptographicAssets>
+            <ref>corresponding-public-key-ref</ref>
+            <type>publicKey</type>
+          </relatedCryptographicAssets>
+          <relatedCryptographicAssets>
+            <ref>certificate-using-this-key-ref</ref>
+            <type>certificate</type>
+          </relatedCryptographicAssets>
+          <relatedCryptographicAssets>
+            <ref>rsa-4096-ref</ref>
+            <type>algorithm</type>
+          </relatedCryptographicAssets>
+          <securedBy>
+            <algorithmRef>aes-256-gcm-ref</algorithmRef>
+            <mechanism>HSM</mechanism>
+          </securedBy>
+          <size>4096</size>
+          <state>active</state>
+          <type>public-key</type>
+          <updateDate>2024-01-03T00:00:00.000Z</updateDate>
+          <value>-----BEGIN PUBLIC KEY-----</value>
+        </relatedCryptoMaterialProperties>
+      </cryptoProperties>
+    </component>
+  </components>
+</bom>

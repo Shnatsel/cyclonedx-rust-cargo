@@ -1,0 +1,19 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:8ad91ceb-1741-4d58-8d22-4488a0f68dbe",
+  "components": [
+    {
+      "type": "application",
+      "name": "my-application",
+      "version": "1.33.7",
+      "description": "This application is composed of multiple things, and therefore has multiple licenses applied:\n* custom code - custom license\n* component A - EPL or GPL\n* component B - MIT\n* component C - MIT",
+      "licenses": [
+        {
+          "expression": "LicenseRef-my-custom-license AND (EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0) AND MIT"
+        }
+      ]
+    }
+  ]
+}

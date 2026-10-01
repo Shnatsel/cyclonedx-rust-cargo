@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:bdd25550-f1c1-4cb4-b406-0c8d05ad6382" version="1">
+  <metadata>
+    <component type="application" bom-ref="my-app">
+      <name>My Application</name>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="libcurl">
+      <name>libcurl</name>
+      <versionRange>vers:generic/>=8.7.1|&lt;9.0.0</versionRange>
+      <isExternal>true</isExternal>
+      <description>libcurl ^8.7.1</description>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="my-app">
+      <dependency ref="libcurl" />
+    </dependency>
+    <dependency ref="libcurl" />
+  </dependencies>
+</bom>

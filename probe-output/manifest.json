@@ -1,0 +1,2824 @@
+[
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-assembly-1.3.json",
+    "json": "1.3-valid-assembly-1.3.json.json",
+    "name": "valid-assembly-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-assembly-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-assembly-1.3.xml",
+    "json": "1.3-valid-assembly-1.3.xml.json",
+    "name": "valid-assembly-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-assembly-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-bom-1.3.json",
+    "json": "1.3-valid-bom-1.3.json.json",
+    "name": "valid-bom-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-bom-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-bom-1.3.xml",
+    "json": "1.3-valid-bom-1.3.xml.json",
+    "name": "valid-bom-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-bom-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-hashes-1.3.json",
+    "json": "1.3-valid-component-hashes-1.3.json.json",
+    "name": "valid-component-hashes-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-component-hashes-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-hashes-1.3.xml",
+    "json": "1.3-valid-component-hashes-1.3.xml.json",
+    "name": "valid-component-hashes-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-component-hashes-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-ref-1.3.json",
+    "json": "1.3-valid-component-ref-1.3.json.json",
+    "name": "valid-component-ref-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-component-ref-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-ref-1.3.xml",
+    "json": "1.3-valid-component-ref-1.3.xml.json",
+    "name": "valid-component-ref-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-component-ref-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-swid-1.3.json",
+    "json": "1.3-valid-component-swid-1.3.json.json",
+    "name": "valid-component-swid-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-component-swid-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-swid-1.3.xml",
+    "json": "1.3-valid-component-swid-1.3.xml.json",
+    "name": "valid-component-swid-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-component-swid-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-swid-full-1.3.json",
+    "json": "1.3-valid-component-swid-full-1.3.json.json",
+    "name": "valid-component-swid-full-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-component-swid-full-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-swid-full-1.3.xml",
+    "json": "1.3-valid-component-swid-full-1.3.xml.json",
+    "name": "valid-component-swid-full-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-component-swid-full-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-types-1.3.json",
+    "json": "1.3-valid-component-types-1.3.json.json",
+    "name": "valid-component-types-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-component-types-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-component-types-1.3.xml",
+    "json": "1.3-valid-component-types-1.3.xml.json",
+    "name": "valid-component-types-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-component-types-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-compositions-1.3.json",
+    "json": "1.3-valid-compositions-1.3.json.json",
+    "name": "valid-compositions-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-compositions-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-compositions-1.3.xml",
+    "json": "1.3-valid-compositions-1.3.xml.json",
+    "name": "valid-compositions-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-compositions-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-dependency-1.3.json",
+    "json": "1.3-valid-dependency-1.3.json.json",
+    "name": "valid-dependency-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-dependency-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-dependency-1.3.xml",
+    "json": "1.3-valid-dependency-1.3.xml.json",
+    "name": "valid-dependency-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-dependency-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-empty-components-1.3.json",
+    "json": "1.3-valid-empty-components-1.3.json.json",
+    "name": "valid-empty-components-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-empty-components-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-empty-components-1.3.xml",
+    "json": "1.3-valid-empty-components-1.3.xml.json",
+    "name": "valid-empty-components-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-empty-components-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-evidence-1.3.json",
+    "json": "1.3-valid-evidence-1.3.json.json",
+    "name": "valid-evidence-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-evidence-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-evidence-1.3.xml",
+    "json": "1.3-valid-evidence-1.3.xml.json",
+    "name": "valid-evidence-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-evidence-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-external-elements-1.3.xml",
+    "json": "1.3-valid-external-elements-1.3.xml.json",
+    "name": "valid-external-elements-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-external-elements-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-external-reference-1.3.json",
+    "json": "1.3-valid-external-reference-1.3.json.json",
+    "name": "valid-external-reference-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-external-reference-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-external-reference-1.3.xml",
+    "json": "1.3-valid-external-reference-1.3.xml.json",
+    "name": "valid-external-reference-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-external-reference-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-expression-1.3.json",
+    "json": "1.3-valid-license-expression-1.3.json.json",
+    "name": "valid-license-expression-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-license-expression-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-expression-1.3.xml",
+    "json": "1.3-valid-license-expression-1.3.xml.json",
+    "name": "valid-license-expression-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-license-expression-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-id-1.3.json",
+    "json": "1.3-valid-license-id-1.3.json.json",
+    "name": "valid-license-id-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-license-id-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-id-1.3.xml",
+    "json": "1.3-valid-license-id-1.3.xml.json",
+    "name": "valid-license-id-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-license-id-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-name-1.3.json",
+    "json": "1.3-valid-license-name-1.3.json.json",
+    "name": "valid-license-name-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-license-name-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-license-name-1.3.xml",
+    "json": "1.3-valid-license-name-1.3.xml.json",
+    "name": "valid-license-name-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-license-name-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-author-1.3.json",
+    "json": "1.3-valid-metadata-author-1.3.json.json",
+    "name": "valid-metadata-author-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-author-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-author-1.3.xml",
+    "json": "1.3-valid-metadata-author-1.3.xml.json",
+    "name": "valid-metadata-author-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-author-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-license-1.3.json",
+    "json": "1.3-valid-metadata-license-1.3.json.json",
+    "name": "valid-metadata-license-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-license-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-license-1.3.xml",
+    "json": "1.3-valid-metadata-license-1.3.xml.json",
+    "name": "valid-metadata-license-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-license-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-manufacture-1.3.json",
+    "json": "1.3-valid-metadata-manufacture-1.3.json.json",
+    "name": "valid-metadata-manufacture-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-manufacture-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-manufacture-1.3.xml",
+    "json": "1.3-valid-metadata-manufacture-1.3.xml.json",
+    "name": "valid-metadata-manufacture-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-manufacture-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-supplier-1.3.json",
+    "json": "1.3-valid-metadata-supplier-1.3.json.json",
+    "name": "valid-metadata-supplier-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-supplier-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-supplier-1.3.xml",
+    "json": "1.3-valid-metadata-supplier-1.3.xml.json",
+    "name": "valid-metadata-supplier-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-supplier-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-timestamp-1.3.json",
+    "json": "1.3-valid-metadata-timestamp-1.3.json.json",
+    "name": "valid-metadata-timestamp-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-timestamp-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-timestamp-1.3.xml",
+    "json": "1.3-valid-metadata-timestamp-1.3.xml.json",
+    "name": "valid-metadata-timestamp-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-timestamp-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-tool-1.3.json",
+    "json": "1.3-valid-metadata-tool-1.3.json.json",
+    "name": "valid-metadata-tool-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-tool-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-metadata-tool-1.3.xml",
+    "json": "1.3-valid-metadata-tool-1.3.xml.json",
+    "name": "valid-metadata-tool-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-metadata-tool-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-minimal-viable-1.3.json",
+    "json": "1.3-valid-minimal-viable-1.3.json.json",
+    "name": "valid-minimal-viable-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-minimal-viable-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-minimal-viable-1.3.xml",
+    "json": "1.3-valid-minimal-viable-1.3.xml.json",
+    "name": "valid-minimal-viable-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-minimal-viable-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-patch-1.3.json",
+    "json": "1.3-valid-patch-1.3.json.json",
+    "name": "valid-patch-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-patch-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-patch-1.3.xml",
+    "json": "1.3-valid-patch-1.3.xml.json",
+    "name": "valid-patch-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-patch-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-properties-1.3.json",
+    "json": "1.3-valid-properties-1.3.json.json",
+    "name": "valid-properties-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-properties-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-properties-1.3.xml",
+    "json": "1.3-valid-properties-1.3.xml.json",
+    "name": "valid-properties-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-properties-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-random-attributes-1.3.xml",
+    "json": "1.3-valid-random-attributes-1.3.xml.json",
+    "name": "valid-random-attributes-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-random-attributes-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-service-1.3.json",
+    "json": "1.3-valid-service-1.3.json.json",
+    "name": "valid-service-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-service-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-service-1.3.xml",
+    "json": "1.3-valid-service-1.3.xml.json",
+    "name": "valid-service-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-service-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-service-empty-objects-1.3.json",
+    "json": "1.3-valid-service-empty-objects-1.3.json.json",
+    "name": "valid-service-empty-objects-1.3.json",
+    "version": "1.3",
+    "xml": "1.3-valid-service-empty-objects-1.3.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-service-empty-objects-1.3.xml",
+    "json": "1.3-valid-service-empty-objects-1.3.xml.json",
+    "name": "valid-service-empty-objects-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-service-empty-objects-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.3/valid-xml-signature-1.3.xml",
+    "json": "1.3-valid-xml-signature-1.3.xml.json",
+    "name": "valid-xml-signature-1.3.xml",
+    "version": "1.3",
+    "xml": "1.3-valid-xml-signature-1.3.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-assembly-1.4.json",
+    "json": "1.4-valid-assembly-1.4.json.json",
+    "name": "valid-assembly-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-assembly-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-assembly-1.4.xml",
+    "json": "1.4-valid-assembly-1.4.xml.json",
+    "name": "valid-assembly-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-assembly-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-bom-1.4.json",
+    "json": "1.4-valid-bom-1.4.json.json",
+    "name": "valid-bom-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-bom-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-bom-1.4.xml",
+    "json": "1.4-valid-bom-1.4.xml.json",
+    "name": "valid-bom-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-bom-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-hashes-1.4.json",
+    "json": "1.4-valid-component-hashes-1.4.json.json",
+    "name": "valid-component-hashes-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-component-hashes-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-hashes-1.4.xml",
+    "json": "1.4-valid-component-hashes-1.4.xml.json",
+    "name": "valid-component-hashes-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-component-hashes-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-ref-1.4.json",
+    "json": "1.4-valid-component-ref-1.4.json.json",
+    "name": "valid-component-ref-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-component-ref-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-ref-1.4.xml",
+    "json": "1.4-valid-component-ref-1.4.xml.json",
+    "name": "valid-component-ref-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-component-ref-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-swid-1.4.json",
+    "json": "1.4-valid-component-swid-1.4.json.json",
+    "name": "valid-component-swid-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-component-swid-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-swid-1.4.xml",
+    "json": "1.4-valid-component-swid-1.4.xml.json",
+    "name": "valid-component-swid-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-component-swid-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-swid-full-1.4.json",
+    "json": "1.4-valid-component-swid-full-1.4.json.json",
+    "name": "valid-component-swid-full-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-component-swid-full-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-swid-full-1.4.xml",
+    "json": "1.4-valid-component-swid-full-1.4.xml.json",
+    "name": "valid-component-swid-full-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-component-swid-full-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-types-1.4.json",
+    "json": "1.4-valid-component-types-1.4.json.json",
+    "name": "valid-component-types-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-component-types-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-component-types-1.4.xml",
+    "json": "1.4-valid-component-types-1.4.xml.json",
+    "name": "valid-component-types-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-component-types-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-compositions-1.4.json",
+    "json": "1.4-valid-compositions-1.4.json.json",
+    "name": "valid-compositions-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-compositions-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-compositions-1.4.xml",
+    "json": "1.4-valid-compositions-1.4.xml.json",
+    "name": "valid-compositions-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-compositions-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-dependency-1.4.json",
+    "json": "1.4-valid-dependency-1.4.json.json",
+    "name": "valid-dependency-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-dependency-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-dependency-1.4.xml",
+    "json": "1.4-valid-dependency-1.4.xml.json",
+    "name": "valid-dependency-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-dependency-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-empty-components-1.4.json",
+    "json": "1.4-valid-empty-components-1.4.json.json",
+    "name": "valid-empty-components-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-empty-components-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-empty-components-1.4.xml",
+    "json": "1.4-valid-empty-components-1.4.xml.json",
+    "name": "valid-empty-components-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-empty-components-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-evidence-1.4.json",
+    "json": "1.4-valid-evidence-1.4.json.json",
+    "name": "valid-evidence-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-evidence-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-evidence-1.4.xml",
+    "json": "1.4-valid-evidence-1.4.xml.json",
+    "name": "valid-evidence-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-evidence-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-external-elements-1.4.xml",
+    "json": "1.4-valid-external-elements-1.4.xml.json",
+    "name": "valid-external-elements-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-external-elements-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-external-reference-1.4.json",
+    "json": "1.4-valid-external-reference-1.4.json.json",
+    "name": "valid-external-reference-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-external-reference-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-external-reference-1.4.xml",
+    "json": "1.4-valid-external-reference-1.4.xml.json",
+    "name": "valid-external-reference-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-external-reference-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-expression-1.4.json",
+    "json": "1.4-valid-license-expression-1.4.json.json",
+    "name": "valid-license-expression-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-license-expression-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-expression-1.4.xml",
+    "json": "1.4-valid-license-expression-1.4.xml.json",
+    "name": "valid-license-expression-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-license-expression-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-id-1.4.json",
+    "json": "1.4-valid-license-id-1.4.json.json",
+    "name": "valid-license-id-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-license-id-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-id-1.4.xml",
+    "json": "1.4-valid-license-id-1.4.xml.json",
+    "name": "valid-license-id-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-license-id-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-name-1.4.json",
+    "json": "1.4-valid-license-name-1.4.json.json",
+    "name": "valid-license-name-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-license-name-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-license-name-1.4.xml",
+    "json": "1.4-valid-license-name-1.4.xml.json",
+    "name": "valid-license-name-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-license-name-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-author-1.4.json",
+    "json": "1.4-valid-metadata-author-1.4.json.json",
+    "name": "valid-metadata-author-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-author-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-author-1.4.xml",
+    "json": "1.4-valid-metadata-author-1.4.xml.json",
+    "name": "valid-metadata-author-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-author-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-license-1.4.json",
+    "json": "1.4-valid-metadata-license-1.4.json.json",
+    "name": "valid-metadata-license-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-license-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-license-1.4.xml",
+    "json": "1.4-valid-metadata-license-1.4.xml.json",
+    "name": "valid-metadata-license-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-license-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-manufacture-1.4.json",
+    "json": "1.4-valid-metadata-manufacture-1.4.json.json",
+    "name": "valid-metadata-manufacture-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-manufacture-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-manufacture-1.4.xml",
+    "json": "1.4-valid-metadata-manufacture-1.4.xml.json",
+    "name": "valid-metadata-manufacture-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-manufacture-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-supplier-1.4.json",
+    "json": "1.4-valid-metadata-supplier-1.4.json.json",
+    "name": "valid-metadata-supplier-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-supplier-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-supplier-1.4.xml",
+    "json": "1.4-valid-metadata-supplier-1.4.xml.json",
+    "name": "valid-metadata-supplier-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-supplier-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-timestamp-1.4.json",
+    "json": "1.4-valid-metadata-timestamp-1.4.json.json",
+    "name": "valid-metadata-timestamp-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-timestamp-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-timestamp-1.4.xml",
+    "json": "1.4-valid-metadata-timestamp-1.4.xml.json",
+    "name": "valid-metadata-timestamp-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-timestamp-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-tool-1.4.json",
+    "json": "1.4-valid-metadata-tool-1.4.json.json",
+    "name": "valid-metadata-tool-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-tool-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-metadata-tool-1.4.xml",
+    "json": "1.4-valid-metadata-tool-1.4.xml.json",
+    "name": "valid-metadata-tool-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-metadata-tool-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-minimal-viable-1.4.json",
+    "json": "1.4-valid-minimal-viable-1.4.json.json",
+    "name": "valid-minimal-viable-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-minimal-viable-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-minimal-viable-1.4.xml",
+    "json": "1.4-valid-minimal-viable-1.4.xml.json",
+    "name": "valid-minimal-viable-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-minimal-viable-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-patch-1.4.json",
+    "json": "1.4-valid-patch-1.4.json.json",
+    "name": "valid-patch-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-patch-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-patch-1.4.xml",
+    "json": "1.4-valid-patch-1.4.xml.json",
+    "name": "valid-patch-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-patch-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-properties-1.4.json",
+    "json": "1.4-valid-properties-1.4.json.json",
+    "name": "valid-properties-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-properties-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-properties-1.4.xml",
+    "json": "1.4-valid-properties-1.4.xml.json",
+    "name": "valid-properties-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-properties-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-random-attributes-1.4.xml",
+    "json": "1.4-valid-random-attributes-1.4.xml.json",
+    "name": "valid-random-attributes-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-random-attributes-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-release-notes-1.4.json",
+    "json": "1.4-valid-release-notes-1.4.json.json",
+    "name": "valid-release-notes-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-release-notes-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-release-notes-1.4.xml",
+    "json": "1.4-valid-release-notes-1.4.xml.json",
+    "name": "valid-release-notes-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-release-notes-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-service-1.4.json",
+    "json": "1.4-valid-service-1.4.json.json",
+    "name": "valid-service-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-service-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-service-1.4.xml",
+    "json": "1.4-valid-service-1.4.xml.json",
+    "name": "valid-service-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-service-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-service-empty-objects-1.4.json",
+    "json": "1.4-valid-service-empty-objects-1.4.json.json",
+    "name": "valid-service-empty-objects-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-service-empty-objects-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-service-empty-objects-1.4.xml",
+    "json": "1.4-valid-service-empty-objects-1.4.xml.json",
+    "name": "valid-service-empty-objects-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-service-empty-objects-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-signatures-1.4.json",
+    "json": "1.4-valid-signatures-1.4.json.json",
+    "name": "valid-signatures-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-signatures-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-vulnerability-1.4.json",
+    "json": "1.4-valid-vulnerability-1.4.json.json",
+    "name": "valid-vulnerability-1.4.json",
+    "version": "1.4",
+    "xml": "1.4-valid-vulnerability-1.4.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-vulnerability-1.4.xml",
+    "json": "1.4-valid-vulnerability-1.4.xml.json",
+    "name": "valid-vulnerability-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-vulnerability-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.4/valid-xml-signature-1.4.xml",
+    "json": "1.4-valid-xml-signature-1.4.xml.json",
+    "name": "valid-xml-signature-1.4.xml",
+    "version": "1.4",
+    "xml": "1.4-valid-xml-signature-1.4.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-annotation-1.5.json",
+    "json": "1.5-valid-annotation-1.5.json.json",
+    "name": "valid-annotation-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-annotation-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-annotation-1.5.xml",
+    "json": "1.5-valid-annotation-1.5.xml.json",
+    "name": "valid-annotation-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-annotation-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-assembly-1.5.json",
+    "json": "1.5-valid-assembly-1.5.json.json",
+    "name": "valid-assembly-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-assembly-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-assembly-1.5.xml",
+    "json": "1.5-valid-assembly-1.5.xml.json",
+    "name": "valid-assembly-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-assembly-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-bom-1.5.json",
+    "json": "1.5-valid-bom-1.5.json.json",
+    "name": "valid-bom-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-bom-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-bom-1.5.xml",
+    "json": "1.5-valid-bom-1.5.xml.json",
+    "name": "valid-bom-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-bom-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-hashes-1.5.json",
+    "json": "1.5-valid-component-hashes-1.5.json.json",
+    "name": "valid-component-hashes-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-component-hashes-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-hashes-1.5.xml",
+    "json": "1.5-valid-component-hashes-1.5.xml.json",
+    "name": "valid-component-hashes-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-component-hashes-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-ref-1.5.json",
+    "json": "1.5-valid-component-ref-1.5.json.json",
+    "name": "valid-component-ref-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-component-ref-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-ref-1.5.xml",
+    "json": "1.5-valid-component-ref-1.5.xml.json",
+    "name": "valid-component-ref-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-component-ref-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-swid-1.5.json",
+    "json": "1.5-valid-component-swid-1.5.json.json",
+    "name": "valid-component-swid-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-component-swid-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-swid-1.5.xml",
+    "json": "1.5-valid-component-swid-1.5.xml.json",
+    "name": "valid-component-swid-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-component-swid-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-swid-full-1.5.json",
+    "json": "1.5-valid-component-swid-full-1.5.json.json",
+    "name": "valid-component-swid-full-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-component-swid-full-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-swid-full-1.5.xml",
+    "json": "1.5-valid-component-swid-full-1.5.xml.json",
+    "name": "valid-component-swid-full-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-component-swid-full-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-types-1.5.json",
+    "json": "1.5-valid-component-types-1.5.json.json",
+    "name": "valid-component-types-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-component-types-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-component-types-1.5.xml",
+    "json": "1.5-valid-component-types-1.5.xml.json",
+    "name": "valid-component-types-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-component-types-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-compositions-1.5.json",
+    "json": "1.5-valid-compositions-1.5.json.json",
+    "name": "valid-compositions-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-compositions-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-compositions-1.5.xml",
+    "json": "1.5-valid-compositions-1.5.xml.json",
+    "name": "valid-compositions-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-compositions-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-dependency-1.5.json",
+    "json": "1.5-valid-dependency-1.5.json.json",
+    "name": "valid-dependency-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-dependency-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-dependency-1.5.xml",
+    "json": "1.5-valid-dependency-1.5.xml.json",
+    "name": "valid-dependency-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-dependency-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-empty-components-1.5.json",
+    "json": "1.5-valid-empty-components-1.5.json.json",
+    "name": "valid-empty-components-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-empty-components-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-empty-components-1.5.xml",
+    "json": "1.5-valid-empty-components-1.5.xml.json",
+    "name": "valid-empty-components-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-empty-components-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-evidence-1.5.json",
+    "json": "1.5-valid-evidence-1.5.json.json",
+    "name": "valid-evidence-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-evidence-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-evidence-1.5.xml",
+    "json": "1.5-valid-evidence-1.5.xml.json",
+    "name": "valid-evidence-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-evidence-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-external-elements-1.5.xml",
+    "json": "1.5-valid-external-elements-1.5.xml.json",
+    "name": "valid-external-elements-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-external-elements-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-external-reference-1.5.json",
+    "json": "1.5-valid-external-reference-1.5.json.json",
+    "name": "valid-external-reference-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-external-reference-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-external-reference-1.5.xml",
+    "json": "1.5-valid-external-reference-1.5.xml.json",
+    "name": "valid-external-reference-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-external-reference-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-formulation-1.5.json",
+    "json": "1.5-valid-formulation-1.5.json.json",
+    "name": "valid-formulation-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-formulation-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-formulation-1.5.xml",
+    "json": "1.5-valid-formulation-1.5.xml.json",
+    "name": "valid-formulation-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-formulation-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-expression-1.5.json",
+    "json": "1.5-valid-license-expression-1.5.json.json",
+    "name": "valid-license-expression-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-license-expression-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-expression-1.5.xml",
+    "json": "1.5-valid-license-expression-1.5.xml.json",
+    "name": "valid-license-expression-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-license-expression-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-id-1.5.json",
+    "json": "1.5-valid-license-id-1.5.json.json",
+    "name": "valid-license-id-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-license-id-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-id-1.5.xml",
+    "json": "1.5-valid-license-id-1.5.xml.json",
+    "name": "valid-license-id-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-license-id-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-licensing-1.5.json",
+    "json": "1.5-valid-license-licensing-1.5.json.json",
+    "name": "valid-license-licensing-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-license-licensing-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-licensing-1.5.xml",
+    "json": "1.5-valid-license-licensing-1.5.xml.json",
+    "name": "valid-license-licensing-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-license-licensing-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-name-1.5.json",
+    "json": "1.5-valid-license-name-1.5.json.json",
+    "name": "valid-license-name-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-license-name-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-license-name-1.5.xml",
+    "json": "1.5-valid-license-name-1.5.xml.json",
+    "name": "valid-license-name-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-license-name-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-machine-learning-1.5.json",
+    "json": "1.5-valid-machine-learning-1.5.json.json",
+    "name": "valid-machine-learning-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-machine-learning-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-machine-learning-1.5.xml",
+    "json": "1.5-valid-machine-learning-1.5.xml.json",
+    "name": "valid-machine-learning-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-machine-learning-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-author-1.5.json",
+    "json": "1.5-valid-metadata-author-1.5.json.json",
+    "name": "valid-metadata-author-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-author-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-author-1.5.xml",
+    "json": "1.5-valid-metadata-author-1.5.xml.json",
+    "name": "valid-metadata-author-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-author-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-license-1.5.json",
+    "json": "1.5-valid-metadata-license-1.5.json.json",
+    "name": "valid-metadata-license-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-license-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-license-1.5.xml",
+    "json": "1.5-valid-metadata-license-1.5.xml.json",
+    "name": "valid-metadata-license-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-license-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-lifecycle-1.5.json",
+    "json": "1.5-valid-metadata-lifecycle-1.5.json.json",
+    "name": "valid-metadata-lifecycle-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-lifecycle-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-lifecycle-1.5.xml",
+    "json": "1.5-valid-metadata-lifecycle-1.5.xml.json",
+    "name": "valid-metadata-lifecycle-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-lifecycle-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-manufacture-1.5.json",
+    "json": "1.5-valid-metadata-manufacture-1.5.json.json",
+    "name": "valid-metadata-manufacture-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-manufacture-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-manufacture-1.5.xml",
+    "json": "1.5-valid-metadata-manufacture-1.5.xml.json",
+    "name": "valid-metadata-manufacture-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-manufacture-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-supplier-1.5.json",
+    "json": "1.5-valid-metadata-supplier-1.5.json.json",
+    "name": "valid-metadata-supplier-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-supplier-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-supplier-1.5.xml",
+    "json": "1.5-valid-metadata-supplier-1.5.xml.json",
+    "name": "valid-metadata-supplier-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-supplier-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-timestamp-1.5.json",
+    "json": "1.5-valid-metadata-timestamp-1.5.json.json",
+    "name": "valid-metadata-timestamp-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-timestamp-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-timestamp-1.5.xml",
+    "json": "1.5-valid-metadata-timestamp-1.5.xml.json",
+    "name": "valid-metadata-timestamp-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-timestamp-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-tool-1.5.json",
+    "json": "1.5-valid-metadata-tool-1.5.json.json",
+    "name": "valid-metadata-tool-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-tool-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-tool-1.5.xml",
+    "json": "1.5-valid-metadata-tool-1.5.xml.json",
+    "name": "valid-metadata-tool-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-tool-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-tool-deprecated-1.5.json",
+    "json": "1.5-valid-metadata-tool-deprecated-1.5.json.json",
+    "name": "valid-metadata-tool-deprecated-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-tool-deprecated-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-metadata-tool-deprecated-1.5.xml",
+    "json": "1.5-valid-metadata-tool-deprecated-1.5.xml.json",
+    "name": "valid-metadata-tool-deprecated-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-metadata-tool-deprecated-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-minimal-viable-1.5.json",
+    "json": "1.5-valid-minimal-viable-1.5.json.json",
+    "name": "valid-minimal-viable-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-minimal-viable-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-minimal-viable-1.5.xml",
+    "json": "1.5-valid-minimal-viable-1.5.xml.json",
+    "name": "valid-minimal-viable-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-minimal-viable-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-patch-1.5.json",
+    "json": "1.5-valid-patch-1.5.json.json",
+    "name": "valid-patch-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-patch-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-patch-1.5.xml",
+    "json": "1.5-valid-patch-1.5.xml.json",
+    "name": "valid-patch-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-patch-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-properties-1.5.json",
+    "json": "1.5-valid-properties-1.5.json.json",
+    "name": "valid-properties-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-properties-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-properties-1.5.xml",
+    "json": "1.5-valid-properties-1.5.xml.json",
+    "name": "valid-properties-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-properties-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-random-attributes-1.5.xml",
+    "json": "1.5-valid-random-attributes-1.5.xml.json",
+    "name": "valid-random-attributes-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-random-attributes-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-release-notes-1.5.json",
+    "json": "1.5-valid-release-notes-1.5.json.json",
+    "name": "valid-release-notes-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-release-notes-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-release-notes-1.5.xml",
+    "json": "1.5-valid-release-notes-1.5.xml.json",
+    "name": "valid-release-notes-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-release-notes-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-saasbom-1.5.json",
+    "json": "1.5-valid-saasbom-1.5.json.json",
+    "name": "valid-saasbom-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-saasbom-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-saasbom-1.5.xml",
+    "json": "1.5-valid-saasbom-1.5.xml.json",
+    "name": "valid-saasbom-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-saasbom-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-service-1.5.json",
+    "json": "1.5-valid-service-1.5.json.json",
+    "name": "valid-service-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-service-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-service-1.5.xml",
+    "json": "1.5-valid-service-1.5.xml.json",
+    "name": "valid-service-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-service-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-service-empty-objects-1.5.json",
+    "json": "1.5-valid-service-empty-objects-1.5.json.json",
+    "name": "valid-service-empty-objects-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-service-empty-objects-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-service-empty-objects-1.5.xml",
+    "json": "1.5-valid-service-empty-objects-1.5.xml.json",
+    "name": "valid-service-empty-objects-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-service-empty-objects-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-signatures-1.5.json",
+    "json": "1.5-valid-signatures-1.5.json.json",
+    "name": "valid-signatures-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-signatures-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-vulnerability-1.5.json",
+    "json": "1.5-valid-vulnerability-1.5.json.json",
+    "name": "valid-vulnerability-1.5.json",
+    "version": "1.5",
+    "xml": "1.5-valid-vulnerability-1.5.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-vulnerability-1.5.xml",
+    "json": "1.5-valid-vulnerability-1.5.xml.json",
+    "name": "valid-vulnerability-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-vulnerability-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.5/valid-xml-signature-1.5.xml",
+    "json": "1.5-valid-xml-signature-1.5.xml.json",
+    "name": "valid-xml-signature-1.5.xml",
+    "version": "1.5",
+    "xml": "1.5-valid-xml-signature-1.5.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-annotation-1.6.json",
+    "json": "1.6-valid-annotation-1.6.json.json",
+    "name": "valid-annotation-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-annotation-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-annotation-1.6.xml",
+    "json": "1.6-valid-annotation-1.6.xml.json",
+    "name": "valid-annotation-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-annotation-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-assembly-1.6.json",
+    "json": "1.6-valid-assembly-1.6.json.json",
+    "name": "valid-assembly-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-assembly-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-assembly-1.6.xml",
+    "json": "1.6-valid-assembly-1.6.xml.json",
+    "name": "valid-assembly-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-assembly-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-attestation-1.6.json",
+    "json": "1.6-valid-attestation-1.6.json.json",
+    "name": "valid-attestation-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-attestation-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-attestation-1.6.xml",
+    "json": "1.6-valid-attestation-1.6.xml.json",
+    "name": "valid-attestation-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-attestation-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-bom-1.6.json",
+    "json": "1.6-valid-bom-1.6.json.json",
+    "name": "valid-bom-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-bom-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-bom-1.6.xml",
+    "json": "1.6-valid-bom-1.6.xml.json",
+    "name": "valid-bom-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-bom-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-data-1.6.json",
+    "name": "valid-component-data-1.6.json",
+    "parse_error": "Failed to deserialize JSON: invalid type: map, expected a string at line 13 column 9",
+    "version": "1.6"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-data-1.6.xml",
+    "json": "1.6-valid-component-data-1.6.xml.json",
+    "name": "valid-component-data-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-data-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-hashes-1.6.json",
+    "json": "1.6-valid-component-hashes-1.6.json.json",
+    "name": "valid-component-hashes-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-hashes-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-hashes-1.6.xml",
+    "json": "1.6-valid-component-hashes-1.6.xml.json",
+    "name": "valid-component-hashes-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-hashes-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-identifiers-1.6.json",
+    "json": "1.6-valid-component-identifiers-1.6.json.json",
+    "name": "valid-component-identifiers-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-identifiers-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-identifiers-1.6.xml",
+    "json": "1.6-valid-component-identifiers-1.6.xml.json",
+    "name": "valid-component-identifiers-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-identifiers-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-ref-1.6.json",
+    "json": "1.6-valid-component-ref-1.6.json.json",
+    "name": "valid-component-ref-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-ref-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-ref-1.6.xml",
+    "json": "1.6-valid-component-ref-1.6.xml.json",
+    "name": "valid-component-ref-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-ref-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-swid-1.6.json",
+    "json": "1.6-valid-component-swid-1.6.json.json",
+    "name": "valid-component-swid-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-swid-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-swid-1.6.xml",
+    "json": "1.6-valid-component-swid-1.6.xml.json",
+    "name": "valid-component-swid-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-swid-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-swid-full-1.6.json",
+    "json": "1.6-valid-component-swid-full-1.6.json.json",
+    "name": "valid-component-swid-full-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-swid-full-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-swid-full-1.6.xml",
+    "json": "1.6-valid-component-swid-full-1.6.xml.json",
+    "name": "valid-component-swid-full-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-swid-full-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-types-1.6.json",
+    "json": "1.6-valid-component-types-1.6.json.json",
+    "name": "valid-component-types-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-component-types-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-component-types-1.6.xml",
+    "json": "1.6-valid-component-types-1.6.xml.json",
+    "name": "valid-component-types-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-component-types-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-compositions-1.6.json",
+    "json": "1.6-valid-compositions-1.6.json.json",
+    "name": "valid-compositions-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-compositions-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-compositions-1.6.xml",
+    "json": "1.6-valid-compositions-1.6.xml.json",
+    "name": "valid-compositions-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-compositions-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-cryptography-full-1.6.json",
+    "json": "1.6-valid-cryptography-full-1.6.json.json",
+    "name": "valid-cryptography-full-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-cryptography-full-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-cryptography-full-1.6.xml",
+    "json": "1.6-valid-cryptography-full-1.6.xml.json",
+    "name": "valid-cryptography-full-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-cryptography-full-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-cryptography-implementation-1.6.json",
+    "json": "1.6-valid-cryptography-implementation-1.6.json.json",
+    "name": "valid-cryptography-implementation-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-cryptography-implementation-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-cryptography-implementation-1.6.xml",
+    "name": "valid-cryptography-implementation-1.6.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.6}dependency: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.6}provides, {\"\": \"http://cyclonedx.org/schema/bom/1.6\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [ref -> aes128gcm])",
+    "version": "1.6"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-dependency-1.6.json",
+    "json": "1.6-valid-dependency-1.6.json.json",
+    "name": "valid-dependency-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-dependency-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-dependency-1.6.xml",
+    "json": "1.6-valid-dependency-1.6.xml.json",
+    "name": "valid-dependency-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-dependency-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-empty-components-1.6.json",
+    "json": "1.6-valid-empty-components-1.6.json.json",
+    "name": "valid-empty-components-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-empty-components-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-empty-components-1.6.xml",
+    "json": "1.6-valid-empty-components-1.6.xml.json",
+    "name": "valid-empty-components-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-empty-components-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-evidence-1.6.json",
+    "name": "valid-evidence-1.6.json",
+    "parse_error": "Failed to deserialize JSON: invalid type: map, expected a string at line 118 column 11",
+    "version": "1.6"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-evidence-1.6.xml",
+    "json": "1.6-valid-evidence-1.6.xml.json",
+    "name": "valid-evidence-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-evidence-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-external-elements-1.6.xml",
+    "json": "1.6-valid-external-elements-1.6.xml.json",
+    "name": "valid-external-elements-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-external-elements-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-external-reference-1.6.json",
+    "json": "1.6-valid-external-reference-1.6.json.json",
+    "name": "valid-external-reference-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-external-reference-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-external-reference-1.6.xml",
+    "json": "1.6-valid-external-reference-1.6.xml.json",
+    "name": "valid-external-reference-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-external-reference-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-formulation-1.6.json",
+    "json": "1.6-valid-formulation-1.6.json.json",
+    "name": "valid-formulation-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-formulation-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-formulation-1.6.xml",
+    "json": "1.6-valid-formulation-1.6.xml.json",
+    "name": "valid-formulation-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-formulation-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-expression-1.6.json",
+    "json": "1.6-valid-license-expression-1.6.json.json",
+    "name": "valid-license-expression-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-license-expression-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-expression-1.6.xml",
+    "json": "1.6-valid-license-expression-1.6.xml.json",
+    "name": "valid-license-expression-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-license-expression-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-id-1.6.json",
+    "json": "1.6-valid-license-id-1.6.json.json",
+    "name": "valid-license-id-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-license-id-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-id-1.6.xml",
+    "json": "1.6-valid-license-id-1.6.xml.json",
+    "name": "valid-license-id-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-license-id-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-licensing-1.6.json",
+    "json": "1.6-valid-license-licensing-1.6.json.json",
+    "name": "valid-license-licensing-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-license-licensing-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-licensing-1.6.xml",
+    "json": "1.6-valid-license-licensing-1.6.xml.json",
+    "name": "valid-license-licensing-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-license-licensing-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-name-1.6.json",
+    "json": "1.6-valid-license-name-1.6.json.json",
+    "name": "valid-license-name-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-license-name-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-license-name-1.6.xml",
+    "json": "1.6-valid-license-name-1.6.xml.json",
+    "name": "valid-license-name-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-license-name-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-machine-learning-1.6.json",
+    "json": "1.6-valid-machine-learning-1.6.json.json",
+    "name": "valid-machine-learning-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-machine-learning-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-machine-learning-1.6.xml",
+    "json": "1.6-valid-machine-learning-1.6.xml.json",
+    "name": "valid-machine-learning-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-machine-learning-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-machine-learning-considerations-env-1.6.json",
+    "json": "1.6-valid-machine-learning-considerations-env-1.6.json.json",
+    "name": "valid-machine-learning-considerations-env-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-machine-learning-considerations-env-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-machine-learning-considerations-env-1.6.xml",
+    "json": "1.6-valid-machine-learning-considerations-env-1.6.xml.json",
+    "name": "valid-machine-learning-considerations-env-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-machine-learning-considerations-env-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-author-1.6.json",
+    "json": "1.6-valid-metadata-author-1.6.json.json",
+    "name": "valid-metadata-author-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-author-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-author-1.6.xml",
+    "json": "1.6-valid-metadata-author-1.6.xml.json",
+    "name": "valid-metadata-author-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-author-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-license-1.6.json",
+    "json": "1.6-valid-metadata-license-1.6.json.json",
+    "name": "valid-metadata-license-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-license-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-license-1.6.xml",
+    "json": "1.6-valid-metadata-license-1.6.xml.json",
+    "name": "valid-metadata-license-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-license-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-lifecycle-1.6.json",
+    "json": "1.6-valid-metadata-lifecycle-1.6.json.json",
+    "name": "valid-metadata-lifecycle-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-lifecycle-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-lifecycle-1.6.xml",
+    "json": "1.6-valid-metadata-lifecycle-1.6.xml.json",
+    "name": "valid-metadata-lifecycle-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-lifecycle-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-manufacture-1.6.json",
+    "json": "1.6-valid-metadata-manufacture-1.6.json.json",
+    "name": "valid-metadata-manufacture-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-manufacture-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-manufacture-1.6.xml",
+    "json": "1.6-valid-metadata-manufacture-1.6.xml.json",
+    "name": "valid-metadata-manufacture-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-manufacture-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-manufacturer-1.6.json",
+    "json": "1.6-valid-metadata-manufacturer-1.6.json.json",
+    "name": "valid-metadata-manufacturer-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-manufacturer-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-manufacturer-1.6.xml",
+    "json": "1.6-valid-metadata-manufacturer-1.6.xml.json",
+    "name": "valid-metadata-manufacturer-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-manufacturer-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-supplier-1.6.json",
+    "json": "1.6-valid-metadata-supplier-1.6.json.json",
+    "name": "valid-metadata-supplier-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-supplier-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-supplier-1.6.xml",
+    "json": "1.6-valid-metadata-supplier-1.6.xml.json",
+    "name": "valid-metadata-supplier-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-supplier-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-timestamp-1.6.json",
+    "json": "1.6-valid-metadata-timestamp-1.6.json.json",
+    "name": "valid-metadata-timestamp-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-timestamp-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-timestamp-1.6.xml",
+    "json": "1.6-valid-metadata-timestamp-1.6.xml.json",
+    "name": "valid-metadata-timestamp-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-timestamp-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-tool-1.6.json",
+    "json": "1.6-valid-metadata-tool-1.6.json.json",
+    "name": "valid-metadata-tool-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-tool-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-tool-1.6.xml",
+    "json": "1.6-valid-metadata-tool-1.6.xml.json",
+    "name": "valid-metadata-tool-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-tool-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-tool-deprecated-1.6.json",
+    "json": "1.6-valid-metadata-tool-deprecated-1.6.json.json",
+    "name": "valid-metadata-tool-deprecated-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-tool-deprecated-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-metadata-tool-deprecated-1.6.xml",
+    "json": "1.6-valid-metadata-tool-deprecated-1.6.xml.json",
+    "name": "valid-metadata-tool-deprecated-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-metadata-tool-deprecated-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-minimal-viable-1.6.json",
+    "json": "1.6-valid-minimal-viable-1.6.json.json",
+    "name": "valid-minimal-viable-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-minimal-viable-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-minimal-viable-1.6.xml",
+    "json": "1.6-valid-minimal-viable-1.6.xml.json",
+    "name": "valid-minimal-viable-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-minimal-viable-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-patch-1.6.json",
+    "json": "1.6-valid-patch-1.6.json.json",
+    "name": "valid-patch-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-patch-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-patch-1.6.xml",
+    "json": "1.6-valid-patch-1.6.xml.json",
+    "name": "valid-patch-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-patch-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-properties-1.6.json",
+    "name": "valid-properties-1.6.json",
+    "parse_error": "Failed to deserialize JSON: missing field `value` at line 23 column 7",
+    "version": "1.6"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-properties-1.6.xml",
+    "json": "1.6-valid-properties-1.6.xml.json",
+    "name": "valid-properties-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-properties-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-random-attributes-1.6.xml",
+    "json": "1.6-valid-random-attributes-1.6.xml.json",
+    "name": "valid-random-attributes-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-random-attributes-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-release-notes-1.6.json",
+    "json": "1.6-valid-release-notes-1.6.json.json",
+    "name": "valid-release-notes-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-release-notes-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-release-notes-1.6.xml",
+    "json": "1.6-valid-release-notes-1.6.xml.json",
+    "name": "valid-release-notes-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-release-notes-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-saasbom-1.6.json",
+    "json": "1.6-valid-saasbom-1.6.json.json",
+    "name": "valid-saasbom-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-saasbom-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-saasbom-1.6.xml",
+    "json": "1.6-valid-saasbom-1.6.xml.json",
+    "name": "valid-saasbom-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-saasbom-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-service-1.6.json",
+    "json": "1.6-valid-service-1.6.json.json",
+    "name": "valid-service-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-service-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-service-1.6.xml",
+    "json": "1.6-valid-service-1.6.xml.json",
+    "name": "valid-service-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-service-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-service-empty-objects-1.6.json",
+    "json": "1.6-valid-service-empty-objects-1.6.json.json",
+    "name": "valid-service-empty-objects-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-service-empty-objects-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-service-empty-objects-1.6.xml",
+    "json": "1.6-valid-service-empty-objects-1.6.xml.json",
+    "name": "valid-service-empty-objects-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-service-empty-objects-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-signatures-1.6.json",
+    "json": "1.6-valid-signatures-1.6.json.json",
+    "name": "valid-signatures-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-signatures-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-standard-1.6.json",
+    "json": "1.6-valid-standard-1.6.json.json",
+    "name": "valid-standard-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-standard-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-standard-1.6.xml",
+    "json": "1.6-valid-standard-1.6.xml.json",
+    "name": "valid-standard-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-standard-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-tags-1.6.json",
+    "json": "1.6-valid-tags-1.6.json.json",
+    "name": "valid-tags-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-tags-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-tags-1.6.xml",
+    "json": "1.6-valid-tags-1.6.xml.json",
+    "name": "valid-tags-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-tags-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-vulnerability-1.6.json",
+    "json": "1.6-valid-vulnerability-1.6.json.json",
+    "name": "valid-vulnerability-1.6.json",
+    "version": "1.6",
+    "xml": "1.6-valid-vulnerability-1.6.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-vulnerability-1.6.xml",
+    "json": "1.6-valid-vulnerability-1.6.xml.json",
+    "name": "valid-vulnerability-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-vulnerability-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.6/valid-xml-signature-1.6.xml",
+    "json": "1.6-valid-xml-signature-1.6.xml.json",
+    "name": "valid-xml-signature-1.6.xml",
+    "version": "1.6",
+    "xml": "1.6-valid-xml-signature-1.6.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-annotation-1.7.json",
+    "json": "1.7-valid-annotation-1.7.json.json",
+    "name": "valid-annotation-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-annotation-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-annotation-1.7.xml",
+    "json": "1.7-valid-annotation-1.7.xml.json",
+    "name": "valid-annotation-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-annotation-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-assembly-1.7.json",
+    "json": "1.7-valid-assembly-1.7.json.json",
+    "name": "valid-assembly-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-assembly-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-assembly-1.7.xml",
+    "json": "1.7-valid-assembly-1.7.xml.json",
+    "name": "valid-assembly-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-assembly-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-attestation-1.7.json",
+    "json": "1.7-valid-attestation-1.7.json.json",
+    "name": "valid-attestation-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-attestation-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-attestation-1.7.xml",
+    "json": "1.7-valid-attestation-1.7.xml.json",
+    "name": "valid-attestation-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-attestation-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-bom-1.7.json",
+    "json": "1.7-valid-bom-1.7.json.json",
+    "name": "valid-bom-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-bom-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-bom-1.7.xml",
+    "json": "1.7-valid-bom-1.7.xml.json",
+    "name": "valid-bom-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-bom-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-citations-1.7.json",
+    "json": "1.7-valid-citations-1.7.json.json",
+    "name": "valid-citations-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-citations-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-citations-1.7.xml",
+    "json": "1.7-valid-citations-1.7.xml.json",
+    "name": "valid-citations-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-citations-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-data-1.7.json",
+    "name": "valid-component-data-1.7.json",
+    "parse_error": "Failed to deserialize JSON: invalid type: map, expected a string at line 13 column 9",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-data-1.7.xml",
+    "json": "1.7-valid-component-data-1.7.xml.json",
+    "name": "valid-component-data-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-data-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-with-version.json",
+    "json": "1.7-valid-component-external-with-version.json.json",
+    "name": "valid-component-external-with-version.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-with-version.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-with-version.xml",
+    "json": "1.7-valid-component-external-with-version.xml.json",
+    "name": "valid-component-external-with-version.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-with-version.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-with-versionRange.json",
+    "json": "1.7-valid-component-external-with-versionRange.json.json",
+    "name": "valid-component-external-with-versionRange.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-with-versionRange.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-with-versionRange.xml",
+    "json": "1.7-valid-component-external-with-versionRange.xml.json",
+    "name": "valid-component-external-with-versionRange.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-with-versionRange.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-without-version.json",
+    "json": "1.7-valid-component-external-without-version.json.json",
+    "name": "valid-component-external-without-version.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-without-version.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-external-without-version.xml",
+    "json": "1.7-valid-component-external-without-version.xml.json",
+    "name": "valid-component-external-without-version.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-external-without-version.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-hashes-1.7.json",
+    "json": "1.7-valid-component-hashes-1.7.json.json",
+    "name": "valid-component-hashes-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-hashes-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-hashes-1.7.xml",
+    "json": "1.7-valid-component-hashes-1.7.xml.json",
+    "name": "valid-component-hashes-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-hashes-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-identifiers-1.7.json",
+    "json": "1.7-valid-component-identifiers-1.7.json.json",
+    "name": "valid-component-identifiers-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-identifiers-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-identifiers-1.7.xml",
+    "json": "1.7-valid-component-identifiers-1.7.xml.json",
+    "name": "valid-component-identifiers-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-identifiers-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-ref-1.7.json",
+    "json": "1.7-valid-component-ref-1.7.json.json",
+    "name": "valid-component-ref-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-ref-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-ref-1.7.xml",
+    "json": "1.7-valid-component-ref-1.7.xml.json",
+    "name": "valid-component-ref-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-ref-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-swid-1.7.json",
+    "json": "1.7-valid-component-swid-1.7.json.json",
+    "name": "valid-component-swid-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-swid-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-swid-1.7.xml",
+    "json": "1.7-valid-component-swid-1.7.xml.json",
+    "name": "valid-component-swid-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-swid-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-swid-full-1.7.json",
+    "json": "1.7-valid-component-swid-full-1.7.json.json",
+    "name": "valid-component-swid-full-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-swid-full-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-swid-full-1.7.xml",
+    "json": "1.7-valid-component-swid-full-1.7.xml.json",
+    "name": "valid-component-swid-full-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-swid-full-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-types-1.7.json",
+    "json": "1.7-valid-component-types-1.7.json.json",
+    "name": "valid-component-types-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-component-types-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-component-types-1.7.xml",
+    "json": "1.7-valid-component-types-1.7.xml.json",
+    "name": "valid-component-types-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-component-types-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-compositions-1.7.json",
+    "json": "1.7-valid-compositions-1.7.json.json",
+    "name": "valid-compositions-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-compositions-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-compositions-1.7.xml",
+    "json": "1.7-valid-compositions-1.7.xml.json",
+    "name": "valid-compositions-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-compositions-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-certificate-1.7.json",
+    "json": "1.7-valid-cryptography-certificate-1.7.json.json",
+    "name": "valid-cryptography-certificate-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-certificate-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-certificate-1.7.xml",
+    "json": "1.7-valid-cryptography-certificate-1.7.xml.json",
+    "name": "valid-cryptography-certificate-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-certificate-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-certificate-advanced-1.7.json",
+    "json": "1.7-valid-cryptography-certificate-advanced-1.7.json.json",
+    "name": "valid-cryptography-certificate-advanced-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-certificate-advanced-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-certificate-advanced-1.7.xml",
+    "json": "1.7-valid-cryptography-certificate-advanced-1.7.xml.json",
+    "name": "valid-cryptography-certificate-advanced-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-certificate-advanced-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-full-1.7.json",
+    "json": "1.7-valid-cryptography-full-1.7.json.json",
+    "name": "valid-cryptography-full-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-full-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-full-1.7.xml",
+    "json": "1.7-valid-cryptography-full-1.7.xml.json",
+    "name": "valid-cryptography-full-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-full-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-full-deprecated-1.7.json",
+    "json": "1.7-valid-cryptography-full-deprecated-1.7.json.json",
+    "name": "valid-cryptography-full-deprecated-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-full-deprecated-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-full-deprecated-1.7.xml",
+    "json": "1.7-valid-cryptography-full-deprecated-1.7.xml.json",
+    "name": "valid-cryptography-full-deprecated-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-full-deprecated-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-implementation-1.7.json",
+    "json": "1.7-valid-cryptography-implementation-1.7.json.json",
+    "name": "valid-cryptography-implementation-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-cryptography-implementation-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-cryptography-implementation-1.7.xml",
+    "name": "valid-cryptography-implementation-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}dependency: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}provides, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [ref -> aes128gcm])",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-dependency-1.7.json",
+    "json": "1.7-valid-dependency-1.7.json.json",
+    "name": "valid-dependency-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-dependency-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-dependency-1.7.xml",
+    "json": "1.7-valid-dependency-1.7.xml.json",
+    "name": "valid-dependency-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-dependency-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-empty-components-1.7.json",
+    "json": "1.7-valid-empty-components-1.7.json.json",
+    "name": "valid-empty-components-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-empty-components-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-empty-components-1.7.xml",
+    "json": "1.7-valid-empty-components-1.7.xml.json",
+    "name": "valid-empty-components-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-empty-components-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-evidence-1.7.json",
+    "name": "valid-evidence-1.7.json",
+    "parse_error": "Failed to deserialize JSON: invalid type: map, expected a string at line 120 column 11",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-evidence-1.7.xml",
+    "json": "1.7-valid-evidence-1.7.xml.json",
+    "name": "valid-evidence-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-evidence-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-external-elements-1.7.xml",
+    "json": "1.7-valid-external-elements-1.7.xml.json",
+    "name": "valid-external-elements-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-external-elements-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-external-reference-1.7.json",
+    "json": "1.7-valid-external-reference-1.7.json.json",
+    "name": "valid-external-reference-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-external-reference-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-external-reference-1.7.xml",
+    "json": "1.7-valid-external-reference-1.7.xml.json",
+    "name": "valid-external-reference-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-external-reference-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-external-reference-properties-1.7.json",
+    "json": "1.7-valid-external-reference-properties-1.7.json.json",
+    "name": "valid-external-reference-properties-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-external-reference-properties-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-external-reference-properties-1.7.xml",
+    "name": "valid-external-reference-properties-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}reference: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}properties, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"})",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-formulation-1.7.json",
+    "json": "1.7-valid-formulation-1.7.json.json",
+    "name": "valid-formulation-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-formulation-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-formulation-1.7.xml",
+    "json": "1.7-valid-formulation-1.7.xml.json",
+    "name": "valid-formulation-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-formulation-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-choice-1.7.json",
+    "json": "1.7-valid-license-choice-1.7.json.json",
+    "name": "valid-license-choice-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-choice-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-choice-1.7.xml",
+    "name": "valid-license-choice-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}licenses: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}expression-detailed, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [expression -> LicenseRef-MIT-Style-2])",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-declared-concluded-mix-1.7.json",
+    "json": "1.7-valid-license-declared-concluded-mix-1.7.json.json",
+    "name": "valid-license-declared-concluded-mix-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-declared-concluded-mix-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-declared-concluded-mix-1.7.xml",
+    "name": "valid-license-declared-concluded-mix-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}licenses: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}expression-detailed, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [expression -> GPL-3.0-or-later OR GPL-2.0, acknowledgement -> declared])",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-1.7.json",
+    "json": "1.7-valid-license-expression-1.7.json.json",
+    "name": "valid-license-expression-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-expression-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-1.7.xml",
+    "json": "1.7-valid-license-expression-1.7.xml.json",
+    "name": "valid-license-expression-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-expression-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-with-licensing-1.7.json",
+    "json": "1.7-valid-license-expression-with-licensing-1.7.json.json",
+    "name": "valid-license-expression-with-licensing-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-expression-with-licensing-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-with-licensing-1.7.xml",
+    "name": "valid-license-expression-with-licensing-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}licenses: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}expression-detailed, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [bom-ref -> acme-license-1, expression -> LicenseRef-AcmeCommercialLicense])",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-with-text-1.7.json",
+    "json": "1.7-valid-license-expression-with-text-1.7.json.json",
+    "name": "valid-license-expression-with-text-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-expression-with-text-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-expression-with-text-1.7.xml",
+    "name": "valid-license-expression-with-text-1.7.xml",
+    "parse_error": "Got unexpected XML element when reading {http://cyclonedx.org/schema/bom/1.7}licenses: Got unexpected element StartElement({http://cyclonedx.org/schema/bom/1.7}expression-detailed, {\"\": \"http://cyclonedx.org/schema/bom/1.7\", \"xml\": \"http://www.w3.org/XML/1998/namespace\", \"xmlns\": \"http://www.w3.org/2000/xmlns/\"}, [bom-ref -> my-application-license, acknowledgement -> declared, expression -> LicenseRef-my-custom-license AND (EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0) AND MIT])",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-id-1.7.json",
+    "json": "1.7-valid-license-id-1.7.json.json",
+    "name": "valid-license-id-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-id-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-id-1.7.xml",
+    "json": "1.7-valid-license-id-1.7.xml.json",
+    "name": "valid-license-id-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-id-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-id-with-text-1.7.json",
+    "json": "1.7-valid-license-id-with-text-1.7.json.json",
+    "name": "valid-license-id-with-text-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-id-with-text-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-id-with-text-1.7.xml",
+    "json": "1.7-valid-license-id-with-text-1.7.xml.json",
+    "name": "valid-license-id-with-text-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-id-with-text-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-1.7.json",
+    "json": "1.7-valid-license-name-1.7.json.json",
+    "name": "valid-license-name-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-1.7.xml",
+    "json": "1.7-valid-license-name-1.7.xml.json",
+    "name": "valid-license-name-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-with-licensing-1.7.json",
+    "json": "1.7-valid-license-name-with-licensing-1.7.json.json",
+    "name": "valid-license-name-with-licensing-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-with-licensing-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-with-licensing-1.7.xml",
+    "json": "1.7-valid-license-name-with-licensing-1.7.xml.json",
+    "name": "valid-license-name-with-licensing-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-with-licensing-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-with-text-1.7.json",
+    "json": "1.7-valid-license-name-with-text-1.7.json.json",
+    "name": "valid-license-name-with-text-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-with-text-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-license-name-with-text-1.7.xml",
+    "json": "1.7-valid-license-name-with-text-1.7.xml.json",
+    "name": "valid-license-name-with-text-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-license-name-with-text-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-machine-learning-1.7.json",
+    "json": "1.7-valid-machine-learning-1.7.json.json",
+    "name": "valid-machine-learning-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-machine-learning-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-machine-learning-1.7.xml",
+    "json": "1.7-valid-machine-learning-1.7.xml.json",
+    "name": "valid-machine-learning-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-machine-learning-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-machine-learning-considerations-env-1.7.json",
+    "json": "1.7-valid-machine-learning-considerations-env-1.7.json.json",
+    "name": "valid-machine-learning-considerations-env-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-machine-learning-considerations-env-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-machine-learning-considerations-env-1.7.xml",
+    "json": "1.7-valid-machine-learning-considerations-env-1.7.xml.json",
+    "name": "valid-machine-learning-considerations-env-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-machine-learning-considerations-env-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-author-1.7.json",
+    "json": "1.7-valid-metadata-author-1.7.json.json",
+    "name": "valid-metadata-author-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-author-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-author-1.7.xml",
+    "json": "1.7-valid-metadata-author-1.7.xml.json",
+    "name": "valid-metadata-author-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-author-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-distribution-1.7.json",
+    "json": "1.7-valid-metadata-distribution-1.7.json.json",
+    "name": "valid-metadata-distribution-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-distribution-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-distribution-1.7.xml",
+    "json": "1.7-valid-metadata-distribution-1.7.xml.json",
+    "name": "valid-metadata-distribution-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-distribution-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-license-1.7.json",
+    "json": "1.7-valid-metadata-license-1.7.json.json",
+    "name": "valid-metadata-license-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-license-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-license-1.7.xml",
+    "json": "1.7-valid-metadata-license-1.7.xml.json",
+    "name": "valid-metadata-license-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-license-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-lifecycle-1.7.json",
+    "json": "1.7-valid-metadata-lifecycle-1.7.json.json",
+    "name": "valid-metadata-lifecycle-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-lifecycle-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-lifecycle-1.7.xml",
+    "json": "1.7-valid-metadata-lifecycle-1.7.xml.json",
+    "name": "valid-metadata-lifecycle-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-lifecycle-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-manufacture-1.7.json",
+    "json": "1.7-valid-metadata-manufacture-1.7.json.json",
+    "name": "valid-metadata-manufacture-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-manufacture-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-manufacture-1.7.xml",
+    "json": "1.7-valid-metadata-manufacture-1.7.xml.json",
+    "name": "valid-metadata-manufacture-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-manufacture-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-manufacturer-1.7.json",
+    "json": "1.7-valid-metadata-manufacturer-1.7.json.json",
+    "name": "valid-metadata-manufacturer-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-manufacturer-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-manufacturer-1.7.xml",
+    "json": "1.7-valid-metadata-manufacturer-1.7.xml.json",
+    "name": "valid-metadata-manufacturer-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-manufacturer-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-supplier-1.7.json",
+    "json": "1.7-valid-metadata-supplier-1.7.json.json",
+    "name": "valid-metadata-supplier-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-supplier-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-supplier-1.7.xml",
+    "json": "1.7-valid-metadata-supplier-1.7.xml.json",
+    "name": "valid-metadata-supplier-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-supplier-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-timestamp-1.7.json",
+    "json": "1.7-valid-metadata-timestamp-1.7.json.json",
+    "name": "valid-metadata-timestamp-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-timestamp-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-timestamp-1.7.xml",
+    "json": "1.7-valid-metadata-timestamp-1.7.xml.json",
+    "name": "valid-metadata-timestamp-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-timestamp-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-tool-1.7.json",
+    "json": "1.7-valid-metadata-tool-1.7.json.json",
+    "name": "valid-metadata-tool-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-tool-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-tool-1.7.xml",
+    "json": "1.7-valid-metadata-tool-1.7.xml.json",
+    "name": "valid-metadata-tool-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-tool-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-tool-deprecated-1.7.json",
+    "json": "1.7-valid-metadata-tool-deprecated-1.7.json.json",
+    "name": "valid-metadata-tool-deprecated-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-tool-deprecated-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-metadata-tool-deprecated-1.7.xml",
+    "json": "1.7-valid-metadata-tool-deprecated-1.7.xml.json",
+    "name": "valid-metadata-tool-deprecated-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-metadata-tool-deprecated-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-minimal-viable-1.7.json",
+    "json": "1.7-valid-minimal-viable-1.7.json.json",
+    "name": "valid-minimal-viable-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-minimal-viable-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-minimal-viable-1.7.xml",
+    "json": "1.7-valid-minimal-viable-1.7.xml.json",
+    "name": "valid-minimal-viable-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-minimal-viable-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-patch-1.7.json",
+    "json": "1.7-valid-patch-1.7.json.json",
+    "name": "valid-patch-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-patch-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-patch-1.7.xml",
+    "json": "1.7-valid-patch-1.7.xml.json",
+    "name": "valid-patch-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-patch-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-patent-1.7.json",
+    "json": "1.7-valid-patent-1.7.json.json",
+    "name": "valid-patent-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-patent-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-patent-1.7.xml",
+    "json": "1.7-valid-patent-1.7.xml.json",
+    "name": "valid-patent-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-patent-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-properties-1.7.json",
+    "name": "valid-properties-1.7.json",
+    "parse_error": "Failed to deserialize JSON: missing field `value` at line 23 column 7",
+    "version": "1.7"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-properties-1.7.xml",
+    "json": "1.7-valid-properties-1.7.xml.json",
+    "name": "valid-properties-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-properties-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-random-attributes-1.7.xml",
+    "json": "1.7-valid-random-attributes-1.7.xml.json",
+    "name": "valid-random-attributes-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-random-attributes-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-release-notes-1.7.json",
+    "json": "1.7-valid-release-notes-1.7.json.json",
+    "name": "valid-release-notes-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-release-notes-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-release-notes-1.7.xml",
+    "json": "1.7-valid-release-notes-1.7.xml.json",
+    "name": "valid-release-notes-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-release-notes-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-saasbom-1.7.json",
+    "json": "1.7-valid-saasbom-1.7.json.json",
+    "name": "valid-saasbom-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-saasbom-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-saasbom-1.7.xml",
+    "json": "1.7-valid-saasbom-1.7.xml.json",
+    "name": "valid-saasbom-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-saasbom-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-service-1.7.json",
+    "json": "1.7-valid-service-1.7.json.json",
+    "name": "valid-service-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-service-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-service-1.7.xml",
+    "json": "1.7-valid-service-1.7.xml.json",
+    "name": "valid-service-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-service-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-service-empty-objects-1.7.json",
+    "json": "1.7-valid-service-empty-objects-1.7.json.json",
+    "name": "valid-service-empty-objects-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-service-empty-objects-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-service-empty-objects-1.7.xml",
+    "json": "1.7-valid-service-empty-objects-1.7.xml.json",
+    "name": "valid-service-empty-objects-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-service-empty-objects-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-signatures-1.7.json",
+    "json": "1.7-valid-signatures-1.7.json.json",
+    "name": "valid-signatures-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-signatures-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-standard-1.7.json",
+    "json": "1.7-valid-standard-1.7.json.json",
+    "name": "valid-standard-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-standard-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-standard-1.7.xml",
+    "json": "1.7-valid-standard-1.7.xml.json",
+    "name": "valid-standard-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-standard-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-tags-1.7.json",
+    "json": "1.7-valid-tags-1.7.json.json",
+    "name": "valid-tags-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-tags-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-tags-1.7.xml",
+    "json": "1.7-valid-tags-1.7.xml.json",
+    "name": "valid-tags-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-tags-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-vulnerability-1.7.json",
+    "json": "1.7-valid-vulnerability-1.7.json.json",
+    "name": "valid-vulnerability-1.7.json",
+    "version": "1.7",
+    "xml": "1.7-valid-vulnerability-1.7.json.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-vulnerability-1.7.xml",
+    "json": "1.7-valid-vulnerability-1.7.xml.json",
+    "name": "valid-vulnerability-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-vulnerability-1.7.xml.xml"
+  },
+  {
+    "input": "/home/shnatsel/Code/cyclonedx-specification/tools/src/test/resources/1.7/valid-xml-signature-1.7.xml",
+    "json": "1.7-valid-xml-signature-1.7.xml.json",
+    "name": "valid-xml-signature-1.7.xml",
+    "version": "1.7",
+    "xml": "1.7-valid-xml-signature-1.7.xml.xml"
+  }
+]

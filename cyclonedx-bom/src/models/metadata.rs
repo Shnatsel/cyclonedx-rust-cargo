@@ -45,6 +45,34 @@ pub struct Metadata {
     pub properties: Option<Properties>,
     /// Added in 1.5
     pub lifecycles: Option<Lifecycles>,
+    /// Added in 1.6
+    pub manufacturer: Option<OrganizationalEntity>,
+    /// Added in 1.7
+    pub distribution_constraints: Option<DistributionConstraints>,
+}
+
+/// Conditions and constraints governing sharing and distribution
+#[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
+pub struct DistributionConstraints {
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub tlp: Option<TlpClassification>,
+}
+
+/// Traffic Light Protocol classification
+#[derive(Clone, Debug, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
+pub enum TlpClassification {
+    #[serde(rename = "CLEAR")]
+    Clear,
+    #[serde(rename = "GREEN")]
+    Green,
+    #[serde(rename = "AMBER")]
+    Amber,
+    #[serde(rename = "AMBER+STRICT")]
+    AmberStrict,
+    #[serde(rename = "RED")]
+    Red,
+    #[serde(untagged)]
+    Unknown(String),
 }
 
 impl Metadata {
@@ -160,6 +188,14 @@ mod test {
                 signature: None,
                 model_card: None,
                 data: None,
+                manufacturer: None,
+                authors: None,
+                omnibor_id: None,
+                swhid: None,
+                crypto_properties: None,
+                is_external: None,
+                version_range: None,
+                patent_assertions: None,
             }),
             manufacture: Some(OrganizationalEntity {
                 bom_ref: Some(BomReference::new("Manufacturer")),
@@ -181,6 +217,8 @@ mod test {
                 value: NormalizedString::new("value"),
             }])),
             lifecycles: Some(Lifecycles(vec![Lifecycle::Phase(Phase::Build)])),
+            manufacturer: None,
+            distribution_constraints: None,
         }
         .validate();
 
@@ -231,6 +269,14 @@ mod test {
                 signature: None,
                 model_card: None,
                 data: None,
+                manufacturer: None,
+                authors: None,
+                omnibor_id: None,
+                swhid: None,
+                crypto_properties: None,
+                is_external: None,
+                version_range: None,
+                patent_assertions: None,
             }),
             manufacture: Some(OrganizationalEntity {
                 bom_ref: Some(BomReference::new("Manufacturer")),
@@ -255,6 +301,8 @@ mod test {
                 name: "lifecycle".into(),
                 description: Some(NormalizedString("invalid\tvalue".to_string())),
             })])),
+            manufacturer: None,
+            distribution_constraints: None,
         }
         .validate();
 

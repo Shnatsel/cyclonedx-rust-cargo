@@ -1,0 +1,174 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "declarations": {
+    "Signature": "",
+    "affirmation": {
+      "Signature": "",
+      "signatories": {
+        "signatory": [
+          {
+            "Signature": "",
+            "name": "Tom",
+            "role": "CEO"
+          },
+          {
+            "externalReference": {
+              "@type": "electronic-signature",
+              "url": "https://example.com/coo-sig.png"
+            },
+            "name": "Jerry",
+            "organization": {
+              "name": "Acme Inc"
+            },
+            "role": "COO"
+          }
+        ]
+      },
+      "statement": "I certify, to the best of my knowledge, that all information is correct..."
+    },
+    "assessors": {
+      "assessor": {
+        "@bom-ref": "assessor-1",
+        "organization": {
+          "name": "Assessors Inc"
+        },
+        "thirdParty": "true"
+      }
+    },
+    "attestations": {
+      "attestation": {
+        "Signature": "",
+        "assessor": "assessor-1",
+        "map": {
+          "claims": {
+            "claim": "claim-1"
+          },
+          "confidence": {
+            "rationale": "Confidence rationale here",
+            "score": "1"
+          },
+          "conformance": {
+            "mitigationStrategies": {
+              "mitigationStrategy": "mitigationStrategy-1"
+            },
+            "rationale": "Conformance rationale here",
+            "score": "0.8"
+          },
+          "counterClaims": {
+            "counterClaim": "counterClaim-1"
+          },
+          "requirement": "requirement-1"
+        },
+        "summary": "Attestation summary here"
+      }
+    },
+    "claims": {
+      "claim": {
+        "@bom-ref": "claim-1",
+        "Signature": "",
+        "counterEvidence": "counterEvidence-1",
+        "evidence": "evidence-1",
+        "externalReferences": {
+          "reference": {
+            "@type": "issue-tracker",
+            "url": "https://alm.example.com"
+          }
+        },
+        "mitigationStrategies": {
+          "mitigationStrategy": "mitigationStrategy-1"
+        },
+        "predicate": "Predicate here",
+        "reasoning": "Reasoning here",
+        "target": "acme-inc"
+      }
+    },
+    "evidence": {
+      "evidence": [
+        {
+          "@bom-ref": "evidence-1",
+          "Signature": "",
+          "author": {
+            "name": "Mary"
+          },
+          "created": "2023-04-25T00:00:00+00:00",
+          "data": {
+            "classification": "PII",
+            "contents": {
+              "attachment": {
+                "#text": "Evidence here",
+                "@content-type": "text/plain"
+              }
+            },
+            "name": "Name of the data",
+            "sensitiveData": "Describe sensitive data here"
+          },
+          "description": "Description here",
+          "expires": "2023-05-25T00:00:00+00:00",
+          "propertyName": "internal.com.acme.someProperty",
+          "reviewer": {
+            "name": "Jane"
+          }
+        },
+        {
+          "@bom-ref": "counterEvidence-1",
+          "author": {
+            "name": "Mary"
+          },
+          "created": "2023-04-25T00:00:00+00:00",
+          "data": {
+            "classification": "Public",
+            "contents": {
+              "attachment": {
+                "#text": "Counter evidence here",
+                "@content-type": "text/plain"
+              }
+            },
+            "name": "Name of the data",
+            "sensitiveData": "Describe sensitive data here"
+          },
+          "description": "Description here",
+          "expires": "2023-05-25T00:00:00+00:00",
+          "propertyName": "internal.com.acme.someProperty",
+          "reviewer": {
+            "name": "Jane"
+          }
+        },
+        {
+          "@bom-ref": "mitigationStrategy-1",
+          "author": {
+            "name": "Mary"
+          },
+          "created": "2023-04-25T00:00:00+00:00",
+          "data": {
+            "classification": "Company Confidential",
+            "contents": {
+              "attachment": {
+                "#text": "Mitigation strategy here",
+                "@content-type": "text/plain"
+              }
+            },
+            "name": "Name of the data",
+            "sensitiveData": "Describe sensitive data here"
+          },
+          "description": "Description here",
+          "expires": "2023-05-25T00:00:00+00:00",
+          "propertyName": "internal.com.acme.someProperty",
+          "reviewer": {
+            "name": "Jane"
+          }
+        }
+      ]
+    },
+    "targets": {
+      "organizations": {
+        "organization": {
+          "@bom-ref": "acme-inc",
+          "name": "Acme Inc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" version="1">
+  <components>
+    <component type="library">
+      <name>lib</name>
+      <isExternal>true</isExternal>
+    </component>
+  </components>
+</bom>

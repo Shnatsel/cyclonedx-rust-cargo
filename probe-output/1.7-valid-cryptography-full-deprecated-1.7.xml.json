@@ -1,0 +1,130 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "components": [
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-1",
+      "name": "Name here",
+      "cryptoProperties": {
+        "algorithmProperties": {
+          "certificationLevel": "fips140-1-l4",
+          "classicalSecurityLevel": "128",
+          "cryptoFunctions": {
+            "cryptoFunction": [
+              "keygen",
+              "encrypt",
+              "decrypt",
+              "tag"
+            ]
+          },
+          "curve": "brainpoolP160r1",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "mode": "gcm",
+          "nistQuantumSecurityLevel": "1",
+          "padding": "pkcs5",
+          "parameterSetIdentifier": "128",
+          "primitive": "ae"
+        },
+        "assetType": "algorithm",
+        "oid": "oid:1.2.3.4.5.6.7.8.9"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-2",
+      "name": "Name here",
+      "cryptoProperties": {
+        "assetType": "certificate",
+        "certificateProperties": {
+          "certificateExtension": "crt",
+          "certificateFormat": "X.509",
+          "issuerName": "Issuer name here",
+          "notValidAfter": "2024-01-01T00:00:00.000Z",
+          "notValidBefore": "2022-01-01T00:00:00.000Z",
+          "signatureAlgorithmRef": "bom-ref-to-algorithm",
+          "subjectName": "Subject name here",
+          "subjectPublicKeyRef": "bom-ref-to-public-key"
+        },
+        "oid": "oid:1.2.3.4.5.6.7.8.9",
+        "protocolProperties": {
+          "cipherSuites": {
+            "cipherSuite": {
+              "algorithms": {
+                "algorithm": "bom-ref-to-algorithm"
+              },
+              "identifiers": {
+                "identifier": "0xC0"
+              },
+              "name": "TLS_DHE_RSA_WITH_AES_128_CCM"
+            }
+          },
+          "cryptoRef": "asset-4",
+          "ikev2TransformTypes": {
+            "auth": "bom-ref-to-auth",
+            "encr": "bom-ref-to-encr",
+            "esn": "true",
+            "integ": "bom-ref-to-integ",
+            "ke": "bom-ref-to-ke",
+            "prf": "bom-ref-to-prf"
+          },
+          "type": "tls",
+          "version": "1.3"
+        }
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-3",
+      "name": "Name here",
+      "cryptoProperties": {
+        "assetType": "protocol",
+        "oid": "oid:1.2.3.4.5.6.7.8.9",
+        "protocolProperties": {
+          "cipherSuites": {
+            "cipherSuite": {
+              "algorithms": {
+                "algorithm": "bom-ref-to-algorithm"
+              },
+              "identifiers": {
+                "identifier": "0xC0"
+              },
+              "name": "TLS_DHE_RSA_WITH_AES_128_CCM"
+            }
+          },
+          "type": "tls",
+          "version": "1.3"
+        }
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-4",
+      "name": "Name here",
+      "cryptoProperties": {
+        "assetType": "related-crypto-material",
+        "oid": "oid:1.2.3.4.5.6.7.8.9",
+        "relatedCryptoMaterialProperties": {
+          "activationDate": "2024-01-02T00:00:00.000Z",
+          "algorithmRef": "bom-ref-to-algorithm",
+          "creationDate": "2024-01-01T00:00:00.000Z",
+          "expirationDate": "2024-01-04T00:00:00.000Z",
+          "format": "PEM",
+          "id": "12345",
+          "securedBy": {
+            "algorithmRef": "bom-ref-to-algorithm",
+            "mechanism": "HSM"
+          },
+          "size": "1024",
+          "state": "active",
+          "type": "private-key",
+          "updateDate": "2024-01-03T00:00:00.000Z",
+          "value": "Value here"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:123e4567-e89b-12d3-a456-426614174000" version="1">
+  <components>
+    <component type="library" bom-ref="component-1">
+      <manufacturer bom-ref="org-acme-inc">
+        <name>Acme Inc</name>
+        <url>https://example.com</url>
+      </manufacturer>
+      <name>High-Efficiency Processor</name>
+      <version>1.0</version>
+      <patentAssertions>
+        <patentAssertion bom-ref="patent-assertion-1">
+          <asserter>
+            <ref>org-acme-inc</ref>
+          </asserter>
+          <assertionType>ownership</assertionType>
+          <notes>Covers the core processing architecture for advanced computation.</notes>
+          <patentRefs>
+            <bom-ref>patent-1</bom-ref>
+          </patentRefs>
+        </patentAssertion>
+        <patentAssertion bom-ref="patent-assertion-2">
+          <asserter>
+            <ref>org-acme-inc</ref>
+          </asserter>
+          <assertionType>license</assertionType>
+          <notes>Licensed for use in North America.</notes>
+          <patentRefs>
+            <bom-ref>patent-3</bom-ref>
+          </patentRefs>
+        </patentAssertion>
+      </patentAssertions>
+    </component>
+  </components>
+  <services>
+    <service bom-ref="service-1">
+      <name>Data Analysis Service</name>
+    </service>
+  </services>
+  <definitions>
+    <patents>
+      <patent bom-ref="patent-1">
+        <abstract>A novel system and method for improving data processing efficiency.</abstract>
+        <applicationNumber>12345</applicationNumber>
+        <externalReferences>
+          <reference type="patent">
+            <comment>Official USPTO page for the patent.</comment>
+            <url>https://uspto.gov/patent/US12345678B1</url>
+          </reference>
+        </externalReferences>
+        <filingDate>2021-01-15</filingDate>
+        <grantDate>2022-06-01</grantDate>
+        <jurisdiction>US</jurisdiction>
+        <patentAssignee>
+          <organization>
+            <name>Tech Innovators Inc.</name>
+            <url>https://techinnovators.com</url>
+          </organization>
+        </patentAssignee>
+        <patentExpirationDate>2042-01-15</patentExpirationDate>
+        <patentLegalStatus>in-force</patentLegalStatus>
+        <patentNumber>US1234567890</patentNumber>
+        <publicationNumber>US-12345</publicationNumber>
+        <title>Efficient Data Processing Algorithm</title>
+      </patent>
+      <patent bom-ref="patent-2">
+        <abstract>A novel system and method for improving data processing efficiency.</abstract>
+        <applicationNumber>12345</applicationNumber>
+        <filingDate>2021-01-15</filingDate>
+        <grantDate>2022-06-01</grantDate>
+        <jurisdiction>EU</jurisdiction>
+        <patentAssignee>
+          <organization>
+            <name>Tech Innovators Inc.</name>
+            <url>https://techinnovators.com</url>
+          </organization>
+        </patentAssignee>
+        <patentExpirationDate>2042-01-15</patentExpirationDate>
+        <patentLegalStatus>in-force</patentLegalStatus>
+        <patentNumber>EU1234567890</patentNumber>
+        <priorityApplication>
+          <applicationNumber>US1234567890</applicationNumber>
+          <filingDate>2021-01-15</filingDate>
+          <jurisdiction>US</jurisdiction>
+        </priorityApplication>
+        <publicationNumber>EU-12345</publicationNumber>
+        <title>Efficient Data Processing Algorithm</title>
+      </patent>
+      <patent bom-ref="patent-3">
+        <abstract>An optimised approach to data processing for scalable systems.</abstract>
+        <externalReferences>
+          <reference type="patent">
+            <comment>Official EUIPO page for the patent.</comment>
+            <url>https://euipo.europa.eu/ep987654321A1</url>
+          </reference>
+        </externalReferences>
+        <filingDate>2021-02-10</filingDate>
+        <grantDate>2023-03-15</grantDate>
+        <jurisdiction>EP</jurisdiction>
+        <patentAssignee>
+          <individual>
+            <email>jane.smith@techinnovators.com</email>
+            <name>Jane Smith</name>
+          </individual>
+        </patentAssignee>
+        <patentExpirationDate>2043-02-10</patentExpirationDate>
+        <patentLegalStatus>in-force</patentLegalStatus>
+        <patentNumber>EP987654321A1</patentNumber>
+        <title>Data Processing Optimisation</title>
+      </patent>
+      <patentFamily bom-ref="patent-family-1">
+        <externalReferences>
+          <reference type="patent-family">
+            <comment>Official record of the patent family.</comment>
+            <url>https://uspto.gov/patent-family-5678</url>
+          </reference>
+        </externalReferences>
+        <familyId>PF-2023001</familyId>
+        <members>
+          <ref>patent-1</ref>
+          <ref>patent-2</ref>
+        </members>
+        <priorityApplication>
+          <applicationNumber>12345</applicationNumber>
+          <filingDate>2021-01-15</filingDate>
+          <jurisdiction>US</jurisdiction>
+        </priorityApplication>
+      </patentFamily>
+    </patents>
+  </definitions>
+</bom>

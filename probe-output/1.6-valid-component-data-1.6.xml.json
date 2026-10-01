@@ -1,0 +1,20 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:1b1bff0e-fdb9-4088-8b9a-1a9f2d9006da",
+  "components": [
+    {
+      "type": "data",
+      "name": "my-configs",
+      "version": "1337",
+      "data": {
+        "type": "other",
+        "name": ".env",
+        "contents": {
+          "url": "https://example.com/cfg/1337/env"
+        }
+      }
+    }
+  ]
+}

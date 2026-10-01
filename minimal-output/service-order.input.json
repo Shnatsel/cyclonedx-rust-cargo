@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","services":[{"name":"parent","properties":[{"name":"key","value":"value"}],"services":[{"name":"child"}]}],"specVersion":"1.3","version":1}

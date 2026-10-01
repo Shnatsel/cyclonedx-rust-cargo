@@ -1,0 +1,15 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "author"
+      }
+    ],
+    "manufacturer": {
+      "name": "maker"
+    }
+  }
+}

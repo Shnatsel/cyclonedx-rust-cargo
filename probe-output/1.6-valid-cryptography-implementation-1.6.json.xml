@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <metadata>
+    <component type="application" bom-ref="acme-application">
+      <name>Acme Application</name>
+      <version>1.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="cryptographic-asset" bom-ref="aes128gcm">
+      <name>AES</name>
+      <cryptoProperties>
+        <algorithmProperties>
+          <certificationLevel>none</certificationLevel>
+          <classicalSecurityLevel>128</classicalSecurityLevel>
+          <cryptoFunctions>keygen</cryptoFunctions>
+          <cryptoFunctions>encrypt</cryptoFunctions>
+          <cryptoFunctions>decrypt</cryptoFunctions>
+          <cryptoFunctions>tag</cryptoFunctions>
+          <executionEnvironment>software-plain-ram</executionEnvironment>
+          <implementationPlatform>x86_64</implementationPlatform>
+          <mode>gcm</mode>
+          <nistQuantumSecurityLevel>1</nistQuantumSecurityLevel>
+          <parameterSetIdentifier>128</parameterSetIdentifier>
+          <primitive>ae</primitive>
+        </algorithmProperties>
+        <assetType>algorithm</assetType>
+        <oid>oid:2.16.840.1.101.3.4.1.6</oid>
+      </cryptoProperties>
+    </component>
+    <component type="library" bom-ref="crypto-library">
+      <name>Crypto library</name>
+      <version>1.0.0</version>
+    </component>
+    <component type="library" bom-ref="some-library">
+      <name>Some library</name>
+      <version>1.0.0</version>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="acme-application">
+      <dependency ref="crypto-library" />
+    </dependency>
+    <dependency ref="crypto-library">
+      <dependency ref="some-library" />
+    </dependency>
+  </dependencies>
+</bom>

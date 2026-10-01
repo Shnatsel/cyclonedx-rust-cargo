@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <definitions>
+    <standards>
+      <standard bom-ref="standard-1">
+        <Signature></Signature>
+        <description>Description here</description>
+        <levels>
+          <level bom-ref="level-1">
+            <description>Description here</description>
+            <identifier>Level 1</identifier>
+            <requirements>
+              <requirement>requirement-1.1.1</requirement>
+            </requirements>
+          </level>
+          <level bom-ref="level-2">
+            <description>Description here</description>
+            <identifier>Level 2</identifier>
+            <requirements>
+              <requirement>requirement-1.1.1</requirement>
+            </requirements>
+          </level>
+          <level bom-ref="level-3">
+            <description>Description here</description>
+            <identifier>Level 3</identifier>
+            <requirements>
+              <requirement>requirement-1.1.1</requirement>
+            </requirements>
+          </level>
+        </levels>
+        <name>Sample Standard</name>
+        <owner>Acme Inc</owner>
+        <requirements>
+          <requirement bom-ref="requirement-1">
+            <identifier>v1</identifier>
+            <title>Title here</title>
+          </requirement>
+          <requirement bom-ref="requirement-1.1">
+            <descriptions>
+              <description>Requirement is described here</description>
+              <description>and here</description>
+            </descriptions>
+            <identifier>v1.1</identifier>
+            <parent>requirement-1</parent>
+            <text>Text here</text>
+            <title>Title here</title>
+          </requirement>
+          <requirement bom-ref="requirement-1.1.1">
+            <descriptions>
+              <description>Supplemental text here</description>
+            </descriptions>
+            <identifier>v1.1.1</identifier>
+            <openCre>CRE:616-305</openCre>
+            <parent>requirement-1.1</parent>
+            <text>Text of the requirement here</text>
+          </requirement>
+        </requirements>
+        <version>1.0.0</version>
+      </standard>
+    </standards>
+  </definitions>
+</bom>

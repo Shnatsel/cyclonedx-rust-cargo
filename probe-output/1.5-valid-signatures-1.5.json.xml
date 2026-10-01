@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.5" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <components>
+    <component type="application" bom-ref="5366293e-0740-4dcf-b1d0-0c1fc26e4981">
+      <name>amce app</name>
+      <version>1.0</version>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <value>tqITqIm0gUMWXIjqDgwqzqPw1CwTUKRewZQ5YpX3VwFMWV68NJgX4npU91cSwSC-MRlx1QfOYwSQkeU26VpXSg</value>
+      </signature>
+    </component>
+  </components>
+  <services>
+    <service bom-ref="ee10d0a2-baba-4656-a5ac-d49e172a0d3d">
+      <group>org.partner</group>
+      <name>Stock ticker service</name>
+      <version>2020-Q2</version>
+      <endpoints>
+        <endpoint>https://partner.org/api/v1/lookup</endpoint>
+        <endpoint>https://partner.org/api/v1/stock</endpoint>
+      </endpoints>
+      <authenticated>true</authenticated>
+      <x-trust-boundary>true</x-trust-boundary>
+      <data>
+        <classification flow="inbound">PII</classification>
+      </data>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <value>6A77T3RBTAuVpZOgFFFfOvGOQ1hqMbfSQ91VucRM1RIP6QqX9kEF1Pi1_vCl37qpVzK51kIyppgUF_i9s999XA</value>
+      </signature>
+    </service>
+  </services>
+  <compositions>
+    <composition>
+      <aggregate>complete</aggregate>
+      <assemblies>
+        <assembly ref="5366293e-0740-4dcf-b1d0-0c1fc26e4981" />
+        <assembly ref="ee10d0a2-baba-4656-a5ac-d49e172a0d3d" />
+      </assemblies>
+      <dependencies>
+        <dependency ref="5366293e-0740-4dcf-b1d0-0c1fc26e4981" />
+      </dependencies>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <value>lm6wx-elyBTbNMKNF8riooZhvrm6f5j8JpvgP9JtVv50dd7sXQLH7PqJcn9fmKV8eoF8cszPllEsQQhEQOM4hA</value>
+      </signature>
+    </composition>
+  </compositions>
+  <signature>
+    <algorithm>ES256</algorithm>
+    <value>m4pMbQQVV61TlP4Og7a75SeY8lh00LkkUDXZ4PIhXsR512MPRgZmusFYorJlYq9wM3P9n9gM3T8BTg9XdFdQkQ</value>
+  </signature>
+</bom>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <declarations>
+    <Signature></Signature>
+    <affirmation>
+      <Signature></Signature>
+      <signatories>
+        <signatory>
+          <Signature></Signature>
+          <name>Tom</name>
+          <role>CEO</role>
+        </signatory>
+        <signatory>
+          <externalReference type="electronic-signature">
+            <url>https://example.com/coo-sig.png</url>
+          </externalReference>
+          <name>Jerry</name>
+          <organization>
+            <name>Acme Inc</name>
+          </organization>
+          <role>COO</role>
+        </signatory>
+      </signatories>
+      <statement>I certify, to the best of my knowledge, that all information is correct...</statement>
+    </affirmation>
+    <assessors>
+      <assessor bom-ref="assessor-1">
+        <organization>
+          <name>Assessors Inc</name>
+        </organization>
+        <thirdParty>true</thirdParty>
+      </assessor>
+    </assessors>
+    <attestations>
+      <attestation>
+        <Signature></Signature>
+        <assessor>assessor-1</assessor>
+        <map>
+          <claims>
+            <claim>claim-1</claim>
+          </claims>
+          <confidence>
+            <rationale>Confidence rationale here</rationale>
+            <score>1</score>
+          </confidence>
+          <conformance>
+            <mitigationStrategies>
+              <mitigationStrategy>mitigationStrategy-1</mitigationStrategy>
+            </mitigationStrategies>
+            <rationale>Conformance rationale here</rationale>
+            <score>0.8</score>
+          </conformance>
+          <counterClaims>
+            <counterClaim>counterClaim-1</counterClaim>
+          </counterClaims>
+          <requirement>requirement-1</requirement>
+        </map>
+        <summary>Attestation summary here</summary>
+      </attestation>
+    </attestations>
+    <claims>
+      <claim bom-ref="claim-1">
+        <Signature></Signature>
+        <counterEvidence>counterEvidence-1</counterEvidence>
+        <evidence>evidence-1</evidence>
+        <externalReferences>
+          <reference type="issue-tracker">
+            <url>https://alm.example.com</url>
+          </reference>
+        </externalReferences>
+        <mitigationStrategies>
+          <mitigationStrategy>mitigationStrategy-1</mitigationStrategy>
+        </mitigationStrategies>
+        <predicate>Predicate here</predicate>
+        <reasoning>Reasoning here</reasoning>
+        <target>acme-inc</target>
+      </claim>
+    </claims>
+    <evidence>
+      <evidence bom-ref="evidence-1">
+        <Signature></Signature>
+        <author>
+          <name>Mary</name>
+        </author>
+        <created>2023-04-25T00:00:00+00:00</created>
+        <data>
+          <classification>PII</classification>
+          <contents>
+            <attachment content-type="text/plain">
+              <#text>Evidence here</#text>
+            </attachment>
+          </contents>
+          <name>Name of the data</name>
+          <sensitiveData>Describe sensitive data here</sensitiveData>
+        </data>
+        <description>Description here</description>
+        <expires>2023-05-25T00:00:00+00:00</expires>
+        <propertyName>internal.com.acme.someProperty</propertyName>
+        <reviewer>
+          <name>Jane</name>
+        </reviewer>
+      </evidence>
+      <evidence bom-ref="counterEvidence-1">
+        <author>
+          <name>Mary</name>
+        </author>
+        <created>2023-04-25T00:00:00+00:00</created>
+        <data>
+          <classification>Public</classification>
+          <contents>
+            <attachment content-type="text/plain">
+              <#text>Counter evidence here</#text>
+            </attachment>
+          </contents>
+          <name>Name of the data</name>
+          <sensitiveData>Describe sensitive data here</sensitiveData>
+        </data>
+        <description>Description here</description>
+        <expires>2023-05-25T00:00:00+00:00</expires>
+        <propertyName>internal.com.acme.someProperty</propertyName>
+        <reviewer>
+          <name>Jane</name>
+        </reviewer>
+      </evidence>
+      <evidence bom-ref="mitigationStrategy-1">
+        <author>
+          <name>Mary</name>
+        </author>
+        <created>2023-04-25T00:00:00+00:00</created>
+        <data>
+          <classification>Company Confidential</classification>
+          <contents>
+            <attachment content-type="text/plain">
+              <#text>Mitigation strategy here</#text>
+            </attachment>
+          </contents>
+          <name>Name of the data</name>
+          <sensitiveData>Describe sensitive data here</sensitiveData>
+        </data>
+        <description>Description here</description>
+        <expires>2023-05-25T00:00:00+00:00</expires>
+        <propertyName>internal.com.acme.someProperty</propertyName>
+        <reviewer>
+          <name>Jane</name>
+        </reviewer>
+      </evidence>
+    </evidence>
+    <targets>
+      <organizations>
+        <organization bom-ref="acme-inc">
+          <name>Acme Inc</name>
+        </organization>
+      </organizations>
+    </targets>
+  </declarations>
+</bom>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:7dc07ac8-7fb8-4782-bf89-4762394e189d" version="1">
+  <metadata>
+    <component type="application" bom-ref="my-app">
+      <name>My Application</name>
+    </component>
+  </metadata>
+  <components>
+    <component type="operating-system" bom-ref="os">
+      <name>Ubuntu</name>
+      <version>24.04</version>
+      <isExternal>true</isExternal>
+      <description>Ubuntu 24.04</description>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="my-app">
+      <dependency ref="os" />
+    </dependency>
+    <dependency ref="os" />
+  </dependencies>
+</bom>

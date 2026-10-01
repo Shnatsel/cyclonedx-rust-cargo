@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <definitions>
+    <standards>
+      <bom-ref>standard-1</bom-ref>
+      <description>Description here</description>
+      <levels>
+        <bom-ref>level-1</bom-ref>
+        <description>Description here</description>
+        <identifier>Level 1</identifier>
+        <requirements>requirement-1.1.1</requirements>
+      </levels>
+      <levels>
+        <bom-ref>level-2</bom-ref>
+        <description>Description here</description>
+        <identifier>Level 2</identifier>
+        <requirements>requirement-1.1.1</requirements>
+      </levels>
+      <levels>
+        <bom-ref>level-3</bom-ref>
+        <description>Description here</description>
+        <identifier>Level 3</identifier>
+        <requirements>requirement-1.1.1</requirements>
+      </levels>
+      <name>Sample Standard</name>
+      <owner>Acme Inc</owner>
+      <requirements>
+        <bom-ref>requirement-1</bom-ref>
+        <identifier>v1</identifier>
+        <title>Title here</title>
+      </requirements>
+      <requirements>
+        <bom-ref>requirement-1.1</bom-ref>
+        <descriptions>Requirement is described here</descriptions>
+        <descriptions>and here</descriptions>
+        <identifier>v1.1</identifier>
+        <parent>requirement-1</parent>
+        <text>Text here</text>
+        <title>Title here</title>
+      </requirements>
+      <requirements>
+        <bom-ref>requirement-1.1.1</bom-ref>
+        <descriptions>Supplemental text here</descriptions>
+        <identifier>v1.1.1</identifier>
+        <openCre>CRE:616-305</openCre>
+        <parent>requirement-1.1</parent>
+        <text>Text of the requirement here</text>
+      </requirements>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+      <version>1.0.0</version>
+    </standards>
+  </definitions>
+</bom>

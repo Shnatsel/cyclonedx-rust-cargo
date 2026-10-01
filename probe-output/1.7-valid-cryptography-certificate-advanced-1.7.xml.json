@@ -1,0 +1,293 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "metadata": {
+    "timestamp": "2024-01-15T14:30:00Z",
+    "component": {
+      "type": "application",
+      "name": "enterprise-security-app",
+      "version": "2.1.0"
+    }
+  },
+  "components": [
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "840ADC47-55CD-44C6-A306-B37A9149B066",
+      "name": "revoked-internal-ca.example.com",
+      "cryptoProperties": {
+        "assetType": "certificate",
+        "certificateProperties": {
+          "activationDate": "2023-01-01T00:00:00Z",
+          "certificateExtensions": {
+            "certificateExtension": [
+              {
+                "commonExtensionName": "basicConstraints",
+                "commonExtensionValue": "CA:TRUE, pathlen:2"
+              },
+              {
+                "commonExtensionName": "keyUsage",
+                "commonExtensionValue": "Certificate Sign, CRL Sign, Digital Signature"
+              },
+              {
+                "commonExtensionName": "extendedKeyUsage",
+                "commonExtensionValue": "TLS Web Server Authentication, TLS Web Client Authentication"
+              },
+              {
+                "commonExtensionName": "subjectAlternativeName",
+                "commonExtensionValue": "DNS:internal-ca.example.com, DNS:ca.internal.example.com, IP:192.168.1.100"
+              },
+              {
+                "commonExtensionName": "authorityKeyIdentifier",
+                "commonExtensionValue": "keyid:01:02:03:04:05:06:07:08:09:0A:0B:0C:0D:0E:0F:10:11:12:13:14"
+              },
+              {
+                "commonExtensionName": "subjectKeyIdentifier",
+                "commonExtensionValue": "A1:B2:C3:D4:E5:F6:07:08:09:0A:0B:0C:0D:0E:0F:10:11:12:13:14"
+              },
+              {
+                "commonExtensionName": "crlDistributionPoints",
+                "commonExtensionValue": "URI:http://crl.example.com/root-ca.crl"
+              },
+              {
+                "commonExtensionName": "authorityInformationAccess",
+                "commonExtensionValue": "OCSP - URI:http://ocsp.example.com, CA Issuers - URI:http://certs.example.com/root-ca.crt"
+              },
+              {
+                "commonExtensionName": "certificatePolicies",
+                "commonExtensionValue": "Policy: 1.2.3.4.5.6.7.8.1, CPS: http://www.example.com/cps"
+              },
+              {
+                "customExtensionName": "organizationalSecurityLevel",
+                "customExtensionValue": "HIGH"
+              },
+              {
+                "customExtensionName": "incidentTrackingId",
+                "customExtensionValue": "SEC-2024-001"
+              },
+              {
+                "customExtensionName": "complianceFramework",
+                "customExtensionValue": "SOX, PCI-DSS Level 1, ISO 27001"
+              }
+            ]
+          },
+          "certificateFileExtension": "pem",
+          "certificateFormat": "X.509",
+          "certificateState": {
+            "reason": "Certificate was compromised due to private key exposure in security incident #2024-001",
+            "state": "revoked"
+          },
+          "creationDate": "2022-12-15T10:00:00Z",
+          "fingerprint": {
+            "#text": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+            "@alg": "SHA-256"
+          },
+          "issuerName": "CN = Example Root CA, O = Example Corp, C = US",
+          "notValidAfter": "2025-12-31T23:59:59Z",
+          "notValidBefore": "2023-01-01T00:00:00Z",
+          "relatedCryptographicAssets": {
+            "relatedCryptographicAsset": [
+              {
+                "ref": "2A0DA4D2-BBCA-4515-9BCD-C870A3EA4CE8",
+                "type": "algorithm"
+              },
+              {
+                "ref": "ACCAF8BC-5F73-4869-A3FE-1C64E8D96408",
+                "type": "publicKey"
+              }
+            ]
+          },
+          "revocationDate": "2024-01-10T15:45:30Z",
+          "serialNumber": "ABCDEF1234567890FEDCBA",
+          "subjectName": "CN = internal-ca.example.com, OU = IT Security, O = Example Corp, C = US"
+        },
+        "oid": "2.5.4.3"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "4497B977-4D07-4245-9457-C2CF37FF399A",
+      "name": "active-server.example.com",
+      "cryptoProperties": {
+        "assetType": "certificate",
+        "certificateProperties": {
+          "activationDate": "2024-01-01T00:00:00Z",
+          "certificateExtensions": {
+            "certificateExtension": [
+              {
+                "commonExtensionName": "keyUsage",
+                "commonExtensionValue": "Digital Signature, Key Encipherment"
+              },
+              {
+                "commonExtensionName": "extendedKeyUsage",
+                "commonExtensionValue": "TLS Web Server Authentication"
+              },
+              {
+                "commonExtensionName": "subjectAlternativeName",
+                "commonExtensionValue": "DNS:server.example.com, DNS:www.server.example.com, DNS:api.server.example.com"
+              },
+              {
+                "commonExtensionName": "signedCertificateTimestamp",
+                "commonExtensionValue": "Log ID: ABCD1234..., Timestamp: 2024-01-01T00:00:00Z, Signature: 3045022100..."
+              },
+              {
+                "customExtensionName": "deploymentEnvironment",
+                "customExtensionValue": "PRODUCTION"
+              },
+              {
+                "customExtensionName": "businessCriticality",
+                "customExtensionValue": "CRITICAL"
+              },
+              {
+                "customExtensionName": "autoRenewalEnabled",
+                "customExtensionValue": "true"
+              }
+            ]
+          },
+          "certificateFileExtension": "crt",
+          "certificateFormat": "X.509",
+          "certificateState": {
+            "description": "Certificate is under enhanced monitoring due to recent security incidents",
+            "name": "monitored",
+            "reason": "Proactive monitoring following organizational security policy updates"
+          },
+          "creationDate": "2023-12-20T09:00:00Z",
+          "fingerprint": {
+            "#text": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+            "@alg": "SHA-256"
+          },
+          "issuerName": "CN = Example Intermediate CA, O = Example Corp, C = US",
+          "notValidAfter": "2025-01-01T23:59:59Z",
+          "notValidBefore": "2024-01-01T00:00:00Z",
+          "relatedCryptographicAssets": {
+            "relatedCryptographicAsset": [
+              {
+                "ref": "14478B86-9306-45B5-BA2A-1660B723244C",
+                "type": "algorithm"
+              },
+              {
+                "ref": "F1F3D902-0A1B-4C0C-9F6A-F36E041B0B7D",
+                "type": "publicKey"
+              }
+            ]
+          },
+          "serialNumber": "1122334455667788AABBCCDD",
+          "subjectName": "CN = server.example.com, OU = Web Services, O = Example Corp, C = US"
+        },
+        "oid": "2.5.4.3"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "2A0DA4D2-BBCA-4515-9BCD-C870A3EA4CE8",
+      "name": "RSA-SHA256",
+      "cryptoProperties": {
+        "algorithmProperties": {
+          "cryptoFunctions": {
+            "cryptoFunction": [
+              "sign",
+              "verify"
+            ]
+          },
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "padding": "pkcs1v15",
+          "primitive": "signature"
+        },
+        "assetType": "algorithm",
+        "oid": "1.2.840.113549.1.1.11"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "14478B86-9306-45B5-BA2A-1660B723244C",
+      "name": "ECDSA-P256",
+      "cryptoProperties": {
+        "algorithmProperties": {
+          "certificationLevel": "fips140-3-l1",
+          "cryptoFunctions": {
+            "cryptoFunction": [
+              "sign",
+              "verify"
+            ]
+          },
+          "curve": "secp256r1",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "primitive": "signature"
+        },
+        "assetType": "algorithm",
+        "oid": "1.2.840.10045.4.3.2"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "ACCAF8BC-5F73-4869-A3FE-1C64E8D96408",
+      "name": "RSA-4096-Revoked-CA-Key",
+      "cryptoProperties": {
+        "assetType": "related-crypto-material",
+        "oid": "1.2.840.113549.1.1.1",
+        "relatedCryptoMaterialProperties": {
+          "activationDate": "2023-01-01T00:00:00Z",
+          "creationDate": "2022-12-15T10:00:00Z",
+          "fingerprint": {
+            "#text": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+            "@alg": "SHA-256"
+          },
+          "format": "PEM",
+          "id": "revoked-ca-key-2024",
+          "relatedCryptographicAssets": {
+            "relatedCryptographicAsset": {
+              "ref": "2A0DA4D2-BBCA-4515-9BCD-C870A3EA4CE8",
+              "type": "algorithm"
+            }
+          },
+          "securedBy": {
+            "algorithmRef": "aes-256-gcm-ref",
+            "mechanism": "HSM"
+          },
+          "size": "4096",
+          "state": "compromised",
+          "type": "public-key",
+          "updateDate": "2024-01-10T15:45:30Z",
+          "value": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA...\n-----END PUBLIC KEY-----"
+        }
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "F1F3D902-0A1B-4C0C-9F6A-F36E041B0B7D",
+      "name": "ECDSA-P256-Server-Key",
+      "cryptoProperties": {
+        "assetType": "related-crypto-material",
+        "oid": "1.2.840.10045.2.1",
+        "relatedCryptoMaterialProperties": {
+          "activationDate": "2024-01-01T00:00:00Z",
+          "creationDate": "2023-12-20T09:00:00Z",
+          "expirationDate": "2025-01-01T23:59:59Z",
+          "fingerprint": {
+            "#text": "d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0123456",
+            "@alg": "SHA-256"
+          },
+          "format": "PEM",
+          "id": "server-key-2024",
+          "relatedCryptographicAssets": {
+            "relatedCryptographicAsset": {
+              "ref": "14478B86-9306-45B5-BA2A-1660B723244C",
+              "type": "algorithm"
+            }
+          },
+          "securedBy": {
+            "algorithmRef": "aes-256-gcm-ref",
+            "mechanism": "HSM"
+          },
+          "size": "256",
+          "state": "active",
+          "type": "public-key",
+          "value": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE...\n-----END PUBLIC KEY-----"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:78a32681-a31f-4097-b151-7b771cc58157",
+  "components": [
+    {
+      "type": "library",
+      "publisher": "Acme Inc",
+      "group": "com.acme",
+      "name": "cryptographic-provider",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "expression": "LicenseRef-AcmeCommercialLicense"
+        }
+      ]
+    }
+  ]
+}

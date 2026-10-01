@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
+  <dependencies>
+    <dependency ref="library" />
+  </dependencies>
+</bom>

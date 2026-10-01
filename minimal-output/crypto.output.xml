@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
+  <components>
+    <component type="cryptographic-asset">
+      <name>AES</name>
+      <cryptoProperties>
+        <algorithmProperties>
+          <classicalSecurityLevel>128</classicalSecurityLevel>
+          <cryptoFunctions>encrypt</cryptoFunctions>
+          <primitive>block-cipher</primitive>
+        </algorithmProperties>
+        <assetType>algorithm</assetType>
+      </cryptoProperties>
+    </component>
+  </components>
+</bom>

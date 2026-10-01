@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","components":[{"cryptoProperties":{"algorithmProperties":{"classicalSecurityLevel":128,"cryptoFunctions":["encrypt"],"primitive":"block-cipher"},"assetType":"algorithm"},"name":"AES","type":"cryptographic-asset"}],"specVersion":"1.6","version":1}

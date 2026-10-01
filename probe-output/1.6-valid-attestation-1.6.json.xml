@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <declarations>
+    <affirmation>
+      <signatories>
+        <name>Tom</name>
+        <role>CEO</role>
+        <signature>
+          <algorithm>ES256</algorithm>
+          <certificatePath>MIIB...</certificatePath>
+          <certificatePath>MIID...</certificatePath>
+          <value>tqIT...</value>
+        </signature>
+      </signatories>
+      <signatories>
+        <externalReference>
+          <type>electronic-signature</type>
+          <url>https://example.com/coo-sig.png</url>
+        </externalReference>
+        <name>Jerry</name>
+        <organization>
+          <name>Acme Inc</name>
+        </organization>
+        <role>COO</role>
+      </signatories>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+      <statement>I certify, to the best of my knowledge, that all information is correct...</statement>
+    </affirmation>
+    <assessors>
+      <bom-ref>assessor-1</bom-ref>
+      <organization>
+        <name>Assessors Inc</name>
+      </organization>
+      <thirdParty>true</thirdParty>
+    </assessors>
+    <attestations>
+      <assessor>assessor-1</assessor>
+      <map>
+        <claims>claim-1</claims>
+        <confidence>
+          <rationale>Confidence rationale here</rationale>
+          <score>1</score>
+        </confidence>
+        <conformance>
+          <mitigationStrategies>mitigationStrategy-1</mitigationStrategies>
+          <rationale>Conformance rationale here</rationale>
+          <score>0.8</score>
+        </conformance>
+        <counterClaims>counterClaim-1</counterClaims>
+        <requirement>requirement-1</requirement>
+      </map>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+      <summary>Attestation summary here</summary>
+    </attestations>
+    <claims>
+      <bom-ref>claim-1</bom-ref>
+      <counterEvidence>counterEvidence-1</counterEvidence>
+      <evidence>evidence-1</evidence>
+      <externalReferences>
+        <type>issue-tracker</type>
+        <url>https://alm.example.com</url>
+      </externalReferences>
+      <mitigationStrategies>mitigationStrategy-1</mitigationStrategies>
+      <predicate>Predicate here</predicate>
+      <reasoning>Reasoning here</reasoning>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+      <target>acme-inc</target>
+    </claims>
+    <evidence>
+      <author>
+        <name>Mary</name>
+      </author>
+      <bom-ref>evidence-1</bom-ref>
+      <created>2023-04-25T00:00:00+00:00</created>
+      <data>
+        <classification>PII</classification>
+        <contents>
+          <attachment>
+            <content>Evidence here</content>
+            <contentType>text/plain</contentType>
+          </attachment>
+        </contents>
+        <name>Name of the data</name>
+        <sensitiveData>Describe sensitive data here</sensitiveData>
+      </data>
+      <description>Description here</description>
+      <expires>2023-05-25T00:00:00+00:00</expires>
+      <propertyName>internal.com.acme.someProperty</propertyName>
+      <reviewer>
+        <name>Jane</name>
+      </reviewer>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+    </evidence>
+    <evidence>
+      <author>
+        <name>Mary</name>
+      </author>
+      <bom-ref>counterEvidence-1</bom-ref>
+      <created>2023-04-25T00:00:00+00:00</created>
+      <data>
+        <classification>Public</classification>
+        <contents>
+          <attachment>
+            <content>Counter evidence here</content>
+            <contentType>text/plain</contentType>
+          </attachment>
+        </contents>
+        <name>Name of the data</name>
+        <sensitiveData>Describe sensitive data here</sensitiveData>
+      </data>
+      <description>Description here</description>
+      <expires>2023-05-25T00:00:00+00:00</expires>
+      <propertyName>internal.com.acme.someProperty</propertyName>
+      <reviewer>
+        <name>Jane</name>
+      </reviewer>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+    </evidence>
+    <evidence>
+      <author>
+        <name>Mary</name>
+      </author>
+      <bom-ref>mitigationStrategy-1</bom-ref>
+      <created>2023-04-25T00:00:00+00:00</created>
+      <data>
+        <classification>Company Confidential</classification>
+        <contents>
+          <attachment>
+            <content>Mitigation strategy here</content>
+            <contentType>text/plain</contentType>
+          </attachment>
+        </contents>
+        <name>Name of the data</name>
+        <sensitiveData>Describe sensitive data here</sensitiveData>
+      </data>
+      <description>Description here</description>
+      <expires>2023-05-25T00:00:00+00:00</expires>
+      <propertyName>internal.com.acme.someProperty</propertyName>
+      <reviewer>
+        <name>Jane</name>
+      </reviewer>
+      <signature>
+        <algorithm>ES256</algorithm>
+        <certificatePath>MIIB...</certificatePath>
+        <certificatePath>MIID...</certificatePath>
+        <value>tqIT...</value>
+      </signature>
+    </evidence>
+    <signature>
+      <algorithm>ES256</algorithm>
+      <certificatePath>MIIB...</certificatePath>
+      <certificatePath>MIID...</certificatePath>
+      <value>tqIT...</value>
+    </signature>
+    <targets>
+      <organizations>
+        <bom-ref>acme-inc</bom-ref>
+        <name>Acme Inc</name>
+      </organizations>
+    </targets>
+  </declarations>
+  <signature>
+    <algorithm>ES256</algorithm>
+    <value>tqIT...</value>
+  </signature>
+</bom>

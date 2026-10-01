@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" version="1">
+  <components>
+    <component type="library">
+      <name>parent</name>
+      <version>1</version>
+      <components>
+        <component type="library">
+          <name>child</name>
+          <version>1</version>
+        </component>
+      </components>
+      <properties>
+        <property name="key">value</property>
+      </properties>
+    </component>
+  </components>
+</bom>

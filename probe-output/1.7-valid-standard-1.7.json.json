@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "definitions": {
+    "standards": [
+      {
+        "bom-ref": "standard-1",
+        "description": "Description here",
+        "levels": [
+          {
+            "bom-ref": "level-1",
+            "description": "Description here",
+            "identifier": "Level 1",
+            "requirements": [
+              "requirement-1.1.1"
+            ]
+          },
+          {
+            "bom-ref": "level-2",
+            "description": "Description here",
+            "identifier": "Level 2",
+            "requirements": [
+              "requirement-1.1.1"
+            ]
+          },
+          {
+            "bom-ref": "level-3",
+            "description": "Description here",
+            "identifier": "Level 3",
+            "requirements": [
+              "requirement-1.1.1"
+            ]
+          }
+        ],
+        "name": "Sample Standard",
+        "owner": "Acme Inc",
+        "requirements": [
+          {
+            "bom-ref": "requirement-1",
+            "identifier": "v1",
+            "title": "Title here"
+          },
+          {
+            "bom-ref": "requirement-1.1",
+            "descriptions": [
+              "Requirement is described here",
+              "and here"
+            ],
+            "identifier": "v1.1",
+            "parent": "requirement-1",
+            "text": "Text here",
+            "title": "Title here"
+          },
+          {
+            "bom-ref": "requirement-1.1.1",
+            "descriptions": [
+              "Supplemental text here"
+            ],
+            "identifier": "v1.1.1",
+            "openCre": [
+              "CRE:616-305"
+            ],
+            "parent": "requirement-1.1",
+            "text": "Text of the requirement here"
+          }
+        ],
+        "signature": {
+          "algorithm": "ES256",
+          "certificatePath": [
+            "MIIB...",
+            "MIID..."
+          ],
+          "value": "tqIT..."
+        },
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:df628836-6b9b-41c9-a724-b44743c54d42" version="1">
+  <metadata>
+    <lifecycles>
+      <lifecycle>
+        <phase>design</phase>
+      </lifecycle>
+    </lifecycles>
+  </metadata>
+  <components>
+    <component type="library">
+      <group>com.example</group>
+      <name>situation-A</name>
+      <version>1</version>
+      <description>Multiple licenses: declared ids/names, and a concluded expression</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>PostgreSQL</id>
+        </license>
+        <license>
+          <name>Apache Software License</name>
+        </license>
+        <expression>(MIT OR PostgreSQL OR Apache-2.0)</expression>
+      </licenses>
+    </component>
+    <component type="library">
+      <group>com.example</group>
+      <name>situation-B</name>
+      <version>1</version>
+      <description>Multiple license expressions: one declared, one concluded</description>
+      <licenses>
+        <expression>MIT OR (GPL-3.0 OR GPL-2.0)</expression>
+        <expression>(GPL-3.0-only AND LGPL-2.0-only)</expression>
+      </licenses>
+    </component>
+    <component type="library">
+      <group>com.example</group>
+      <name>situation-C</name>
+      <version>1</version>
+      <description>Multiple license: one declared expression, one concluded id</description>
+      <licenses>
+        <expression>GPL-3.0-or-later OR GPL-2.0</expression>
+        <license>
+          <id>GPL-3.0-only</id>
+        </license>
+      </licenses>
+    </component>
+    <component type="library">
+      <group>com.example</group>
+      <name>situation-D</name>
+      <version>1</version>
+      <description>Multiple license with texts: one declared expression, one concluded id</description>
+      <licenses>
+        <expression>GPL-3.0-or-later OR GPL-2.0</expression>
+        <license>
+          <id>GPL-3.0-only</id>
+          <text>specific GPL-3.0-or-later license text</text>
+        </license>
+      </licenses>
+    </component>
+    <component type="library">
+      <group>com.example</group>
+      <name>situation-E</name>
+      <version>1</version>
+      <description>Multiple licenses with urls: declared ids/names, and a concluded expression</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://example.com/licenses/MIT</url>
+        </license>
+        <license>
+          <id>PostgreSQL</id>
+          <url>https://example.com/licenses/PostgreSQL</url>
+        </license>
+        <license>
+          <name>Apache Software License</name>
+          <url>https://example.com/licenses/Apache-2.0</url>
+        </license>
+        <expression>(MIT AND PostgreSQL AND Apache-2.0)</expression>
+      </licenses>
+    </component>
+  </components>
+</bom>

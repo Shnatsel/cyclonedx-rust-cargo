@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:123e4567-e89b-12d3-a456-426614174000" version="1">
+  <components>
+    <component type="library" bom-ref="component-1">
+      <manufacturer>
+        <name>Acme Inc</name>
+        <url>https://example.com</url>
+      </manufacturer>
+      <name>High-Efficiency Processor</name>
+      <version>1.0</version>
+      <patentAssertions>
+        <asserter>org-acme-inc</asserter>
+        <assertionType>ownership</assertionType>
+        <bom-ref>patent-assertion-1</bom-ref>
+        <notes>Covers the core processing architecture for advanced computation.</notes>
+        <patentRefs>patent-1</patentRefs>
+      </patentAssertions>
+      <patentAssertions>
+        <asserter>org-acme-inc</asserter>
+        <assertionType>license</assertionType>
+        <bom-ref>patent-assertion-2</bom-ref>
+        <notes>Licensed for use in North America.</notes>
+        <patentRefs>patent-3</patentRefs>
+      </patentAssertions>
+    </component>
+  </components>
+  <services>
+    <service bom-ref="service-1">
+      <name>Data Analysis Service</name>
+    </service>
+  </services>
+  <definitions>
+    <patents>
+      <abstract>A novel system and method for improving data processing efficiency.</abstract>
+      <applicationNumber>12345</applicationNumber>
+      <bom-ref>patent-1</bom-ref>
+      <externalReferences>
+        <comment>Official USPTO page for the patent.</comment>
+        <type>patent</type>
+        <url>https://uspto.gov/patent/US12345678B1</url>
+      </externalReferences>
+      <filingDate>2021-01-15</filingDate>
+      <grantDate>2022-06-01</grantDate>
+      <jurisdiction>US</jurisdiction>
+      <patentAssignee>
+        <name>Tech Innovators Inc.</name>
+        <url>https://techinnovators.com</url>
+      </patentAssignee>
+      <patentExpirationDate>2042-01-15</patentExpirationDate>
+      <patentLegalStatus>in-force</patentLegalStatus>
+      <patentNumber>US1234567890</patentNumber>
+      <publicationNumber>US-12345</publicationNumber>
+      <title>Efficient Data Processing Algorithm</title>
+    </patents>
+    <patents>
+      <abstract>A novel system and method for improving data processing efficiency.</abstract>
+      <applicationNumber>12345</applicationNumber>
+      <bom-ref>patent-2</bom-ref>
+      <filingDate>2021-01-15</filingDate>
+      <grantDate>2022-06-01</grantDate>
+      <jurisdiction>EU</jurisdiction>
+      <patentAssignee>
+        <name>Tech Innovators Inc.</name>
+        <url>https://techinnovators.com</url>
+      </patentAssignee>
+      <patentExpirationDate>2042-01-15</patentExpirationDate>
+      <patentLegalStatus>in-force</patentLegalStatus>
+      <patentNumber>EU1234567890</patentNumber>
+      <priorityApplication>
+        <applicationNumber>US1234567890</applicationNumber>
+        <filingDate>2021-01-15</filingDate>
+        <jurisdiction>US</jurisdiction>
+      </priorityApplication>
+      <publicationNumber>EU-12345</publicationNumber>
+      <title>Efficient Data Processing Algorithm</title>
+    </patents>
+    <patents>
+      <abstract>An optimised approach to data processing for scalable systems.</abstract>
+      <bom-ref>patent-3</bom-ref>
+      <externalReferences>
+        <comment>Official EUIPO page for the patent.</comment>
+        <type>patent</type>
+        <url>https://euipo.europa.eu/ep987654321A1</url>
+      </externalReferences>
+      <filingDate>2021-02-10</filingDate>
+      <grantDate>2023-03-15</grantDate>
+      <jurisdiction>EP</jurisdiction>
+      <patentAssignee>
+        <email>jane.smith@techinnovators.com</email>
+        <name>Jane Smith</name>
+      </patentAssignee>
+      <patentExpirationDate>2043-02-10</patentExpirationDate>
+      <patentLegalStatus>in-force</patentLegalStatus>
+      <patentNumber>EP987654321A1</patentNumber>
+      <title>Data Processing Optimisation</title>
+    </patents>
+    <patents>
+      <bom-ref>patent-family-1</bom-ref>
+      <externalReferences>
+        <comment>Official record of the patent family.</comment>
+        <type>patent-family</type>
+        <url>https://uspto.gov/patent-family-5678</url>
+      </externalReferences>
+      <familyId>PF-2023001</familyId>
+      <members>patent-1</members>
+      <members>patent-2</members>
+      <priorityApplication>
+        <applicationNumber>12345</applicationNumber>
+        <filingDate>2021-01-15</filingDate>
+        <jurisdiction>US</jurisdiction>
+      </priorityApplication>
+    </patents>
+  </definitions>
+</bom>

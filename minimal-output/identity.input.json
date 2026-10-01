@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","components":[{"evidence":{"identity":[{"confidence":1.0,"field":"name"}]},"name":"lib","type":"library"}],"specVersion":"1.6","version":1}

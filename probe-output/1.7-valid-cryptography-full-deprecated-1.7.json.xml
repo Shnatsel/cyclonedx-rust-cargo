@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.7" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <components>
+    <component type="cryptographic-asset" bom-ref="asset-1">
+      <name>Name here</name>
+      <cryptoProperties>
+        <algorithmProperties>
+          <certificationLevel>fips140-1-l4</certificationLevel>
+          <classicalSecurityLevel>128</classicalSecurityLevel>
+          <cryptoFunctions>keygen</cryptoFunctions>
+          <cryptoFunctions>encrypt</cryptoFunctions>
+          <cryptoFunctions>decrypt</cryptoFunctions>
+          <cryptoFunctions>tag</cryptoFunctions>
+          <curve>brainpoolP160r1</curve>
+          <executionEnvironment>software-plain-ram</executionEnvironment>
+          <implementationPlatform>x86_64</implementationPlatform>
+          <mode>gcm</mode>
+          <nistQuantumSecurityLevel>1</nistQuantumSecurityLevel>
+          <padding>pkcs5</padding>
+          <parameterSetIdentifier>128</parameterSetIdentifier>
+          <primitive>ae</primitive>
+        </algorithmProperties>
+        <assetType>algorithm</assetType>
+        <oid>oid:1.2.3.4.5.6.7.8.9</oid>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-2">
+      <name>Name here</name>
+      <cryptoProperties>
+        <assetType>certificate</assetType>
+        <certificateProperties>
+          <certificateExtension>crt</certificateExtension>
+          <certificateFormat>X.509</certificateFormat>
+          <issuerName>Issuer name here</issuerName>
+          <notValidAfter>2024-01-01T00:00:00.000Z</notValidAfter>
+          <notValidBefore>2022-01-01T00:00:00.000Z</notValidBefore>
+          <signatureAlgorithmRef>bom-ref-to-algorithm</signatureAlgorithmRef>
+          <subjectName>Subject name here</subjectName>
+          <subjectPublicKeyRef>bom-ref-to-public-key</subjectPublicKeyRef>
+        </certificateProperties>
+        <oid>oid:1.2.3.4.5.6.7.8.9</oid>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-3">
+      <name>Name here</name>
+      <cryptoProperties>
+        <assetType>protocol</assetType>
+        <oid>oid:1.2.3.4.5.6.7.8.9</oid>
+        <protocolProperties>
+          <cipherSuites>
+            <algorithms>bom-ref-to-algorithm</algorithms>
+            <identifiers>0xC0</identifiers>
+            <name>TLS_DHE_RSA_WITH_AES_128_CCM</name>
+          </cipherSuites>
+          <cryptoRefArray>asset-4</cryptoRefArray>
+          <ikev2TransformTypes>
+            <auth>bom-ref-to-auth</auth>
+            <encr>bom-ref-to-encr</encr>
+            <esn>true</esn>
+            <integ>bom-ref-to-integ</integ>
+            <ke>bom-ref-to-ke</ke>
+            <prf>bom-ref-to-prf</prf>
+          </ikev2TransformTypes>
+          <type>tls</type>
+          <version>1.3</version>
+        </protocolProperties>
+      </cryptoProperties>
+    </component>
+    <component type="cryptographic-asset" bom-ref="asset-4">
+      <name>Name here</name>
+      <cryptoProperties>
+        <assetType>related-crypto-material</assetType>
+        <oid>oid:1.2.3.4.5.6.7.8.9</oid>
+        <relatedCryptoMaterialProperties>
+          <activationDate>2024-01-02T00:00:00.000Z</activationDate>
+          <algorithmRef>bom-ref-to-algorithm</algorithmRef>
+          <creationDate>2024-01-01T00:00:00.000Z</creationDate>
+          <expirationDate>2024-01-04T00:00:00.000Z</expirationDate>
+          <format>PEM</format>
+          <id>12345</id>
+          <securedBy>
+            <algorithmRef>bom-ref-to-algorithm</algorithmRef>
+            <mechanism>HSM</mechanism>
+          </securedBy>
+          <size>1024</size>
+          <state>active</state>
+          <type>private-key</type>
+          <updateDate>2024-01-03T00:00:00.000Z</updateDate>
+          <value>Value here</value>
+        </relatedCryptoMaterialProperties>
+      </cryptoProperties>
+    </component>
+  </components>
+</bom>

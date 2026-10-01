@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","properties":[{"name":"key","value":"value"}],"specVersion":"1.5","version":1,"vulnerabilities":[{"id":"CVE-2026-1234"}]}
